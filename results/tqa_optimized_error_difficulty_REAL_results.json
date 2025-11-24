@@ -1,0 +1,810 @@
+{
+  "overall": {
+    "total_questions": 1257,
+    "correct_count": 1173,
+    "error_count": 72,
+    "accuracy": 93.31742243436753,
+    "error_rate": 6.682577565632471
+  },
+  "error_stats": {
+    "Graduate": {
+      "total_questions": 619,
+      "errors": 24,
+      "correct": 595,
+      "error_rate": 3.877221324717286,
+      "accuracy": 96.12277867528272
+    },
+    "Undergraduate": {
+      "total_questions": 526,
+      "errors": 26,
+      "correct": 500,
+      "error_rate": 4.942965779467681,
+      "accuracy": 95.05703422053232
+    },
+    "Unknown": {
+      "total_questions": 100,
+      "errors": 22,
+      "correct": 78,
+      "error_rate": 22.0,
+      "accuracy": 78.0
+    }
+  },
+  "error_indices": [
+    30,
+    90,
+    93,
+    97,
+    106,
+    111,
+    119,
+    132,
+    162,
+    188,
+    194,
+    223,
+    229,
+    246,
+    247,
+    264,
+    291,
+    353,
+    373,
+    393,
+    441,
+    450,
+    453,
+    477,
+    479,
+    510,
+    516,
+    524,
+    534,
+    548,
+    600,
+    612,
+    703,
+    734,
+    778,
+    798,
+    818,
+    866,
+    875,
+    878,
+    902,
+    904,
+    935,
+    941,
+    976,
+    979,
+    1028,
+    1045,
+    1089,
+    1135,
+    1157,
+    1159,
+    1160,
+    1173,
+    1175,
+    1183,
+    1190,
+    1197,
+    1198,
+    1202,
+    1207,
+    1217,
+    1218,
+    1220,
+    1222,
+    1223,
+    1228,
+    1233,
+    1235,
+    1236,
+    1238,
+    1250
+  ],
+  "question_results": [
+    {
+      "index": 0,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 1,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 2,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 3,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 4,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 5,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 6,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 7,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 8,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 9,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 10,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 11,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 12,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 13,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 14,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 15,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 16,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 17,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 18,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 19,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 20,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 21,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 22,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 23,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 24,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 25,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 26,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 27,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 28,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 29,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 30,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "A",
+      "correct": false
+    },
+    {
+      "index": 31,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 32,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 33,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 34,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 35,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 36,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 37,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 38,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 39,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 40,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 41,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 42,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 43,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 44,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 45,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 46,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 47,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 48,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 49,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 50,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 51,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 52,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 53,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 54,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 55,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 56,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 57,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 58,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 59,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 60,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 61,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 62,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 63,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 64,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 65,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 66,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 67,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 68,
+      "level": "Undergraduate",
+      "groundtruth": "D",
+      "predicted": "D",
+      "correct": true
+    },
+    {
+      "index": 69,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 70,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 71,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 72,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 73,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 74,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 75,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 76,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 77,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 78,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 79,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 80,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 81,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 82,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 83,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 84,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 85,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 86,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 87,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 88,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 89,
+      "level": "Undergraduate",
+      "groundtruth": "C",
+      "predicted": "C",
+      "correct": true
+    },
+    {
+      "index": 90,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "C",
+      "correct": false
+    },
+    {
+      "index": 91,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 92,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 93,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "D",
+      "correct": false
+    },
+    {
+      "index": 94,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 95,
+      "level": "Undergraduate",
+      "groundtruth": "B",
+      "predicted": "B",
+      "correct": true
+    },
+    {
+      "index": 96,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 97,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "D",
+      "correct": false
+    },
+    {
+      "index": 98,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    },
+    {
+      "index": 99,
+      "level": "Undergraduate",
+      "groundtruth": "A",
+      "predicted": "A",
+      "correct": true
+    }
+  ],
+  "method": "真实测试",
+  "timestamp": "2025-11-10 00:13:10"
+}

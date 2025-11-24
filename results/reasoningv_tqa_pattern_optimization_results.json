@@ -1,0 +1,2978 @@
+{
+  "optimization_results": {
+    "best_accuracy": 93.31742243436753,
+    "improvement": 5.007422434367527,
+    "result": {
+      "accuracy": 93.31742243436753,
+      "correct_count": 1173,
+      "total_questions": 1257,
+      "strategy_map": {
+        "9": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1035": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "19": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "28": {
+          "prompt": "Analyze carefully: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "39": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "566": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "91": {
+          "prompt": "Analyze carefully: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1128": {
+          "prompt": "Analyze carefully: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1129": {
+          "prompt": "Analyze carefully: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1132": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1141": {
+          "prompt": "Circuit Expert: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "641": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1162": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1163": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1176": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1180": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1181": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1187": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "164": {
+          "prompt": "Circuit Expert: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1203": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1215": {
+          "prompt": "Analyze carefully: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "707": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "709": {
+          "prompt": "Analyze carefully: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "211": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1237": {
+          "prompt": "Technical Expert: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "228": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "230": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "235": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "747": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "248": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "785": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "810": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "829": {
+          "prompt": "Circuit Expert: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "833": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "322": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "855": {
+          "prompt": "Analyze carefully: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "360": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "385": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "404": {
+          "prompt": "Circuit Expert: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "408": {
+          "prompt": "Answer precisely: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "430": {
+          "prompt": "Analyze carefully: {question}\n\nOptions:\n{options}\n\nAnswer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "18": {
+          "name": "emphasize_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option C. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "21": {
+          "name": "emphasize_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option C. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "80": {
+          "name": "emphasize_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option C. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "89": {
+          "name": "emphasize_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option C. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "131": {
+          "name": "emphasize_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option C. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "265": {
+          "name": "emphasize_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option C. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "713": {
+          "name": "emphasize_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option C. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "965": {
+          "name": "emphasize_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option C. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "996": {
+          "name": "emphasize_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option C. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1112": {
+          "name": "emphasize_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option C. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "62": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "66": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "252": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "302": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "307": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "374": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "410": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "492": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "508": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "536": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "720": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "730": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "799": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "835": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "917": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "933": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1012": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1031": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1048": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1114": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1177": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1179": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1204": {
+          "name": "emphasize_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "63": {
+          "name": "emphasize_A_avoid_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "82": {
+          "name": "emphasize_A_avoid_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "124": {
+          "name": "emphasize_A_avoid_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "147": {
+          "name": "emphasize_A_avoid_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "406": {
+          "name": "emphasize_A_avoid_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "831": {
+          "name": "emphasize_A_avoid_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1016": {
+          "name": "emphasize_A_avoid_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1224": {
+          "name": "emphasize_A_avoid_B",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "83": {
+          "name": "emphasize_A",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "186": {
+          "name": "emphasize_A",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1085": {
+          "name": "emphasize_A",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1122": {
+          "name": "emphasize_A",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1221": {
+          "name": "emphasize_A",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1226": {
+          "name": "emphasize_A",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1240": {
+          "name": "emphasize_A",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1248": {
+          "name": "emphasize_A",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1251": {
+          "name": "emphasize_A",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1252": {
+          "name": "emphasize_A",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1253": {
+          "name": "emphasize_A",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1254": {
+          "name": "emphasize_A",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option A. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "263": {
+          "name": "emphasize_B_avoid_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "488": {
+          "name": "emphasize_B_avoid_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "596": {
+          "name": "emphasize_B_avoid_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "643": {
+          "name": "emphasize_B_avoid_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "913": {
+          "name": "emphasize_B_avoid_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1124": {
+          "name": "emphasize_B_avoid_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1229": {
+          "name": "emphasize_B_avoid_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1230": {
+          "name": "emphasize_B_avoid_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1232": {
+          "name": "emphasize_B_avoid_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        },
+        "1241": {
+          "name": "emphasize_B_avoid_C",
+          "prompt": "Question: {question}\n\nOptions:\n{options}\n\nPay special attention to option B. Answer:",
+          "params": {
+            "max_new_tokens": 1,
+            "temperature": 0.0,
+            "do_sample": false,
+            "repetition_penalty": 1.0,
+            "top_p": 1.0,
+            "top_k": 1,
+            "use_cache": true
+          }
+        }
+      }
+    },
+    "error_analysis": {
+      "errors_by_pattern": {
+        "C_to_A": [
+          {
+            "index": 18,
+            "question": "What are the two types of capacitors associated with a MOSFET switch and how do they influence circuit performance?",
+            "options": {
+              "A": "The two types are gate capacitors and drain-to-source capacitors. Gate capacitors cause charge injection, while drain-to-source capacitors act as parasitic elements affecting switched capacitor values.",
+              "B": "The two types are overlap capacitors and channel capacitors. Overlap capacitors cause clock feedthrough, while channel capacitors influence charge transfer speed.",
+              "C": "The two types are gate capacitors and depletion capacitors. Gate capacitors cause charge injection, while depletion capacitors act as parasitic elements affecting switched capacitor values.",
+              "D": "The two types are junction capacitors and oxide capacitors. Junction capacitors affect leakage current, while oxide capacitors determine the ON resistance of the switch."
+            },
+            "groundtruth": "C",
+            "predicted": "A"
+          },
+          {
+            "index": 21,
+            "question": "What factors influence the 1/f noise contribution in an inverter circuit?",
+            "options": {
+              "A": "The frequency of operation, the supply voltage, and the gate oxide thickness of the transistors.",
+              "B": "The temperature of the circuit, the voltage gain of the inverter, and the output load resistance.",
+              "C": "The width of M1, the length of M1 compared to M2, and the type of transistor (n-channel or p-channel) used as the input device.",
+              "D": "The channel length modulation effect, the body effect, and the threshold voltage of the transistors."
+            },
+            "groundtruth": "C",
+            "predicted": "A"
+          },
+          {
+            "index": 80,
+            "question": "How do curvature-corrected bandgap references enhance precision in voltage reference circuits?",
+            "options": {
+              "A": "Curvature-corrected bandgap references use exponential compensation techniques to eliminate temperature-dependent nonlinearities, achieving higher precision by adjusting the curvature of the voltage reference output.",
+              "B": "Curvature-corrected bandgap references improve precision by linearly compensating for temperature variations, resulting in a perfectly flat voltage output across all temperatures.",
+              "C": "Curvature-corrected bandgap references enhance precision by combining piecewise-linear and current-mode techniques to mitigate nonlinear temperature dependencies, reducing errors in the reference voltage.",
+              "D": "Curvature-corrected bandgap references rely solely on CMOS differential amplifiers to stabilize the reference voltage, without addressing temperature-induced nonlinearities."
+            },
+            "groundtruth": "C",
+            "predicted": "A"
+          },
+          {
+            "index": 89,
+            "question": "What are the key second-order effects considered in the SPICE LEVEL 3 model for MOS devices?",
+            "options": {
+              "A": "Narrow-width threshold adjustment, static-feedback threshold adjustment, and saturation field factor in channel length modulation",
+              "B": "Mobility degradation, substrate doping, and oxide thickness effects",
+              "C": "Short-channel effects, narrow-width effects, and temperature effects on MOS parameters",
+              "D": "Lateral diffusion, metallurgical junction depth, and weak inversion modeling"
+            },
+            "groundtruth": "C",
+            "predicted": "A"
+          },
+          {
+            "index": 111,
+            "question": "How is phase margin defined in the context of a feedback system's stability?",
+            "options": {
+              "A": "Phase margin is the difference between the actual phase shift and 180 degrees when the loop gain is unity, ensuring the system avoids oscillation.",
+              "B": "Phase margin is defined as the frequency at which the loop gain drops to 0 dB, determining the bandwidth of the feedback system.",
+              "C": "Phase margin is the value of the phase when the loop gain magnitude is unity (0 dB), calculated as the argument of the loop gain at the frequency where the gain crosses 0 dB.",
+              "D": "Phase margin is the time delay between the input and output signals in a feedback system, measured in degrees."
+            },
+            "groundtruth": "C",
+            "predicted": "A"
+          },
+          {
+            "index": 131,
+            "question": "What are the benefits of using differential-output op amps in integrated circuits for signal swing and noise reduction?",
+            "options": {
+              "A": "Differential-output op amps increase signal swing and remove even harmonics, while reducing common noise like charge injection from switches.",
+              "B": "Differential-output op amps limit signal swing but improve noise immunity by canceling even harmonics and switch-induced noise.",
+              "C": "Differential-output op amps enhance signal swing and eliminate odd harmonics, while significantly reducing common noise such as charge injection from switches.",
+              "D": "Differential-output op amps prioritize power efficiency over signal swing, though they marginally reduce odd harmonics and switch-related noise."
+            },
+            "groundtruth": "C",
+            "predicted": "A"
+          },
+          {
+            "index": 265,
+            "question": "What parameter controls the gain of a single stage amplifier operating in weak inversion?",
+            "options": {
+              "A": "The width-to-length ratio (W/L) of the transistor",
+              "B": "The drain current (I_D) of the transistor",
+              "C": "The channel length dependent parameter (λ)",
+              "D": "The transconductance (g_m) of the transistor"
+            },
+            "groundtruth": "C",
+            "predicted": "A"
+          },
+          {
+            "index": 713,
+            "question": "What is the relationship between input-referred flicker noise and gate-oxide capacitance per unit area?",
+            "options": {
+              "A": "The input-referred flicker noise is directly proportional to the gate-oxide capacitance per unit area.",
+              "B": "The input-referred flicker noise is independent of the gate-oxide capacitance per unit area.",
+              "C": "The input-referred flicker noise is an inverse function of the gate-oxide capacitance per unit area.",
+              "D": "The input-referred flicker noise increases exponentially with the gate-oxide capacitance per unit area."
+            },
+            "groundtruth": "C",
+            "predicted": "A"
+          },
+          {
+            "index": 965,
+            "question": "What is the time constant for the release of trapped electrons in the gate oxide?",
+            "options": {
+              "A": "nanoseconds",
+              "B": "microseconds",
+              "C": "milliseconds",
+              "D": "seconds"
+            },
+            "groundtruth": "C",
+            "predicted": "A"
+          },
+          {
+            "index": 996,
+            "question": "What are the key components of sample-and-hold circuits in bipolar and BiCMOS technologies?",
+            "options": {
+              "A": "Diode-bridge switch and errors due to charge injection",
+              "B": "CMOS examples and frequency response",
+              "C": "Diode-bridge switch and switched-capacitor technology",
+              "D": "Testing methods and upsampling/downsampling"
+            },
+            "groundtruth": "C",
+            "predicted": "A"
+          },
+          {
+            "index": 1112,
+            "question": "What are the ideal input and output impedance characteristics of a transconductor?",
+            "options": {
+              "A": "The input impedance is infinite and the output impedance is zero.",
+              "B": "The input impedance is zero and the output impedance is infinite.",
+              "C": "The input impedance is infinite and the output impedance is infinite.",
+              "D": "The input impedance is zero and the output impedance is zero."
+            },
+            "groundtruth": "C",
+            "predicted": "A"
+          }
+        ],
+        "D_to_A": [
+          {
+            "index": 30,
+            "question": "How can the small-signal input and output resistance of a simple current mirror be calculated?",
+            "options": {
+              "A": "The small-signal input resistance (Rin) is calculated as gm1 + gds1, and the output resistance (Rout) is calculated as λ1I1 + λ1I2.",
+              "B": "The small-signal input resistance (Rin) is calculated as gm1, and the output resistance (Rout) is calculated as λ1I2.",
+              "C": "The small-signal input resistance (Rin) is calculated as 1/(gm1 + gds1), and the output resistance (Rout) is calculated as 1/(λ1I1).",
+              "D": "The small-signal input resistance (Rin) is calculated as 1/gm1, and the output resistance (Rout) is calculated as 1/(λ1I2)."
+            },
+            "groundtruth": "D",
+            "predicted": "A"
+          },
+          {
+            "index": 223,
+            "question": "How many additional bits of resolution are gained for every doubling of the oversampling ratio in a first-order ΔΣ ADC?",
+            "options": {
+              "A": "1 bit",
+              "B": "2.5 bits",
+              "C": "2 bits",
+              "D": "1.5 bits"
+            },
+            "groundtruth": "D",
+            "predicted": "A"
+          },
+          {
+            "index": 1173,
+            "question": "Given the following parameter values:  \nFull-Scale Input Voltage (AINP − AINN) = ±0.5 V<sub>REF</sub>/PGA  \nCommon-Mode Rejection (CMR) = 110 dB  \nData Rate (Internal Oscillator, SPEED = High) = 80 SPS  \nHow do these values affect the following parameters?  \nPower Dissipation (Normal Mode, AVDD = DVDD = 5 V)  \nAnalog Supply Current (Normal Mode, AVDD = 5 V)  \nDigital Supply Current (Normal Mode, DVDD = 5 V)",
+            "options": {
+              "A": "Power Dissipation = 7.7 mW, Analog Supply Current = 900 μA, Digital Supply Current = 65 μA",
+              "B": "Power Dissipation = 7.7 mW, Analog Supply Current = 1400 μA, Digital Supply Current = 140 μA",
+              "C": "Power Dissipation = 5.0 mW, Analog Supply Current = 1400 μA, Digital Supply Current = 95 μA",
+              "D": "Power Dissipation = 5.0 mW, Analog Supply Current = 900 μA, Digital Supply Current = 95 μA"
+            },
+            "groundtruth": "D",
+            "predicted": "A"
+          }
+        ],
+        "B_to_A": [
+          {
+            "index": 62,
+            "question": "What is the configuration used to calculate the negative PSRR in a two-stage op amp?",
+            "options": {
+              "A": "The configuration involves connecting V_BIAS to ground and analyzing the changes in gate-source voltage of M5 and M7 due to power-supply variations.",
+              "B": "The configuration uses a voltage generated by a current derived from V_DD flowing into an MOS diode to keep the gate-source voltage of M5 and M7 constant.",
+              "C": "The configuration involves connecting V_BIAS to an independent voltage source and analyzing the small-signal model with nodal equations.",
+              "D": "The configuration uses cascoding to improve the performance and power-supply rejection ratio of the two-stage op amp."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 66,
+            "question": "What is the power dissipation formula used for the folded-cascode op amp?",
+            "options": {
+              "A": "\\( P_{diss} = V_{DD} \\cdot (I_3 + I_4 + I_5) \\)",
+              "B": "\\( P_{diss} = 2.5V \\cdot (125\\mu A + 125\\mu A + 125\\mu A) \\)",
+              "C": "\\( P_{diss} = V_{DD} \\cdot I_{total} \\cdot C_L \\)",
+              "D": "\\( P_{diss} = (V_{DD} - V_{SS}) \\cdot (I_1 + I_2 + I_3) \\)"
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 247,
+            "question": "How many comparators would be required for an equivalent 7-bit flash ADC?",
+            "options": {
+              "A": "64 comparators",
+              "B": "128 comparators",
+              "C": "256 comparators",
+              "D": "512 comparators"
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 252,
+            "question": "How is the dynamic range (DR) defined for a ΔΣ ADC?",
+            "options": {
+              "A": "The ratio of the power of a full scale sinusoidal input to the power of a sinusoidal input for which SNR is zero.",
+              "B": "The ratio of the power of a full scale sinusoidal input to the power of a sinusoidal input for which SNR is one.",
+              "C": "The ratio of the signal power to the baseband noise power.",
+              "D": "The ratio of the maximum signal power to the minimum detectable signal power."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 264,
+            "question": "What is the relationship between transconductance and drain current in the weak inversion region?",
+            "options": {
+              "A": "The transconductance is proportional to the square root of the drain current.",
+              "B": "The transconductance is linearly proportional to the drain current.",
+              "C": "The transconductance is inversely proportional to the drain current.",
+              "D": "The transconductance is independent of the drain current."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 302,
+            "question": "What is the accuracy of the current mode S/H circuit when a dummy switch is used?",
+            "options": {
+              "A": "The current mode S/H circuit is accurate to within 4-bits when a dummy switch is used.",
+              "B": "The current mode S/H circuit is accurate to within 8-bits when a dummy switch is used.",
+              "C": "The current mode S/H circuit is accurate to within 16-bits when a dummy switch is used.",
+              "D": "The current mode S/H circuit is accurate to within 32-bits when a dummy switch is used."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 307,
+            "question": "What is the significance of the clock timing in analyzing a switched capacitor circuit?",
+            "options": {
+              "A": "The clock timing determines the exact frequency response of the switched capacitor circuit.",
+              "B": "The clock timing is arbitrary and only assists in the analysis without affecting the final result.",
+              "C": "The clock timing must be synchronized with the input signal for proper operation.",
+              "D": "The clock timing directly influences the capacitor values used in the circuit."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 374,
+            "question": "What is the role of MOS source followers in BiCMOS technology when driving a bipolar differential pair?",
+            "options": {
+              "A": "To increase the input impedance of the bipolar differential pair",
+              "B": "To reduce the average current flowing in the stage input leads",
+              "C": "To provide voltage amplification for the bipolar differential pair",
+              "D": "To stabilize the bias current of the bipolar differential pair"
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 393,
+            "question": "What is the transconductance of the bipolar cascode circuit from input to output?",
+            "options": {
+              "A": "The transconductance is approximately equal to \\( g_{m2} \\).",
+              "B": "The transconductance is approximately equal to \\( g_{m1} \\).",
+              "C": "The transconductance is approximately equal to \\( \\beta_{0} \\).",
+              "D": "The transconductance is approximately equal to \\( r_{o2} \\)."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 410,
+            "question": "What are the differential and common-mode half circuits for a pair of mismatched voltage-controlled current sources?",
+            "options": {
+              "A": "The differential half circuit consists of a single voltage-controlled current source with transconductance \\( g_m \\) and the common-mode half circuit consists of a single voltage-controlled current source with transconductance \\( \\Delta g_m \\).",
+              "B": "The differential half circuit consists of a single voltage-controlled current source with transconductance \\( g_m \\) and the common-mode half circuit consists of a single voltage-controlled current source with transconductance \\( g_m \\).",
+              "C": "The differential half circuit consists of a single voltage-controlled current source with transconductance \\( \\Delta g_m \\) and the common-mode half circuit consists of a single voltage-controlled current source with transconductance \\( g_m \\).",
+              "D": "The differential half circuit consists of a single voltage-controlled current source with transconductance \\( g_m \\) and the common-mode half circuit consists of a single voltage-controlled current source with transconductance \\( \\frac{\\Delta g_m}{A} \\)."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 441,
+            "question": "What are the ideal impedance conditions for the feedback network in a series-shunt feedback amplifier?",
+            "options": {
+              "A": "The feedback network should have infinite input impedance (z11f=∞) and zero output impedance (z22f=0)",
+              "B": "The feedback network should have zero input impedance (z11f=0) and infinite output impedance (z22f=∞)",
+              "C": "The feedback network should have infinite input impedance (z11f=∞) and infinite output impedance (z22f=∞)",
+              "D": "The feedback network should have zero input impedance (z11f=0) and zero output impedance (z22f=0)"
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 450,
+            "question": "What type of noise is found in all active devices and some discrete passive elements like carbon resistors?",
+            "options": {
+              "A": "Thermal noise",
+              "B": "Flicker noise",
+              "C": "White noise",
+              "D": "Shot noise"
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 492,
+            "question": "Why is a different feedback loop with high loop gain used to control the common-mode output voltage?",
+            "options": {
+              "A": "Because the common-mode feedback loop has high loop gain and can effectively control the common-mode output voltage.",
+              "B": "Because the common-mode feedback loop has low loop gain and cannot effectively control the common-mode output voltage, necessitating a different feedback loop with high loop gain.",
+              "C": "Because the differential-mode feedback loop is sufficient to control both the differential and common-mode output voltages.",
+              "D": "Because the common-mode feedback loop is unnecessary in fully differential amplifiers."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 508,
+            "question": "What contributes to the drain-gate capacitance in the active region of operation?",
+            "options": {
+              "A": "The intrinsic gate-source capacitance and the junction-depletion capacitance between the drain diffusion and the substrate.",
+              "B": "The gate-drain overlap capacitance, which constitutes the entire drain-gate capacitance in the active region of operation.",
+              "C": "The source-substrate junction capacitance and the intrinsic gate-source capacitance.",
+              "D": "The field threshold adjustment implant and the bulk-junction capacitance."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 524,
+            "question": "Why is operating the output device in the active region crucial for current mirror functionality?",
+            "options": {
+              "A": "Operating in the active region ensures the output current is independent of the input current, improving mirror accuracy.",
+              "B": "A positive output voltage (V_OUT) in the active region makes the output current depend mainly on the input current, which is essential for proper current mirror operation.",
+              "C": "The active region minimizes power consumption by reducing the voltage drop across the output branch.",
+              "D": "Active region operation eliminates the need for input current sources, simplifying the circuit design."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 536,
+            "question": "How does the MOS high-swing cascode current mirror address the issue of input voltage drop?",
+            "options": {
+              "A": "The MOS high-swing cascode current mirror eliminates the input voltage drop entirely by using a feedback loop.",
+              "B": "The MOS high-swing cascode current mirror reduces the input voltage drop by employing multiple input terminals, which distributes the voltage and minimizes the overall $V_{\\mathrm{IN}}$.",
+              "C": "The MOS high-swing cascode current mirror increases the input voltage drop to stabilize the output current.",
+              "D": "The MOS high-swing cascode current mirror ignores the input voltage drop and focuses solely on minimizing the output voltage."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 612,
+            "question": "Under what condition does the output impedance of a source follower become inductive?",
+            "options": {
+              "A": "When the load capacitance is significantly larger than the source-body capacitance",
+              "B": "When the transconductance of the MOSFET is greater than the inverse of the source resistance (1/g_m < R_S)",
+              "C": "When the operating frequency exceeds the f_T of the device",
+              "D": "When the gate-to-drain capacitance is negligible"
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 720,
+            "question": "How does the gain of the device affect the output noise generators at high frequencies?",
+            "options": {
+              "A": "The gain of the device increases the output noise generators at high frequencies, causing them to have a smaller effect when referred back to the input.",
+              "B": "The gain of the device falls with frequency, making output noise generators have a larger effect when referred back to the input.",
+              "C": "The gain of the device remains constant at high frequencies, so the output noise generators are unaffected.",
+              "D": "The gain of the device reduces the impact of output noise generators by filtering them out at high frequencies."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 730,
+            "question": "How does the application of feedback affect the equivalent input noise current?",
+            "options": {
+              "A": "The equivalent input noise current is significantly reduced by the application of feedback.",
+              "B": "The equivalent input noise current is unaffected by the application of feedback.",
+              "C": "The equivalent input noise current is amplified by the application of feedback.",
+              "D": "The equivalent input noise current becomes zero when feedback is applied."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 799,
+            "question": "What is the role of MOS source followers in BiCMOS technology when driving a bipolar differential pair?",
+            "options": {
+              "A": "To increase the input impedance of the bipolar differential pair",
+              "B": "To reduce the average current flowing in the stage input leads",
+              "C": "To provide voltage amplification for the bipolar differential pair",
+              "D": "To stabilize the bias current of the bipolar differential pair"
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 818,
+            "question": "What is the transconductance of the bipolar cascode circuit from input to output?",
+            "options": {
+              "A": "The transconductance is approximately equal to \\( g_{m2} \\).",
+              "B": "The transconductance is approximately equal to \\( g_{m1} \\).",
+              "C": "The transconductance is approximately equal to \\( \\beta_{0} \\).",
+              "D": "The transconductance is approximately equal to \\( r_{o2} \\)."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 835,
+            "question": "What are the differential and common-mode half circuits for a pair of mismatched voltage-controlled current sources?",
+            "options": {
+              "A": "The differential half circuit consists of a single voltage-controlled current source with transconductance \\( g_m \\) and the common-mode half circuit consists of a single voltage-controlled current source with transconductance \\( \\Delta g_m \\).",
+              "B": "The differential half circuit consists of a single voltage-controlled current source with transconductance \\( g_m \\) and the common-mode half circuit consists of a single voltage-controlled current source with transconductance \\( g_m \\).",
+              "C": "The differential half circuit consists of a single voltage-controlled current source with transconductance \\( \\Delta g_m \\) and the common-mode half circuit consists of a single voltage-controlled current source with transconductance \\( g_m \\).",
+              "D": "The differential half circuit consists of a single voltage-controlled current source with transconductance \\( g_m \\) and the common-mode half circuit consists of a single voltage-controlled current source with transconductance \\( \\frac{\\Delta g_m}{A} \\)."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 866,
+            "question": "What are the ideal impedance conditions for the feedback network in a series-shunt feedback amplifier?",
+            "options": {
+              "A": "The feedback network should have infinite input impedance (z11f=∞) and zero output impedance (z22f=0)",
+              "B": "The feedback network should have zero input impedance (z11f=0) and infinite output impedance (z22f=∞)",
+              "C": "The feedback network should have infinite input impedance (z11f=∞) and infinite output impedance (z22f=∞)",
+              "D": "The feedback network should have zero input impedance (z11f=0) and zero output impedance (z22f=0)"
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 875,
+            "question": "What type of noise is found in all active devices and some discrete passive elements like carbon resistors?",
+            "options": {
+              "A": "Thermal noise",
+              "B": "Flicker noise",
+              "C": "White noise",
+              "D": "Shot noise"
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 917,
+            "question": "Why is a different feedback loop with high loop gain used to control the common-mode output voltage?",
+            "options": {
+              "A": "Because the common-mode feedback loop has high loop gain and can effectively control the common-mode output voltage.",
+              "B": "Because the common-mode feedback loop has low loop gain and cannot effectively control the common-mode output voltage, necessitating a different feedback loop with high loop gain.",
+              "C": "Because the differential-mode feedback loop is sufficient to control both the differential and common-mode output voltages.",
+              "D": "Because the common-mode feedback loop is unnecessary in fully differential amplifiers."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 933,
+            "question": "What contributes to the drain-gate capacitance in the active region of operation?",
+            "options": {
+              "A": "The intrinsic gate-source capacitance and the junction-depletion capacitance between the drain diffusion and the substrate.",
+              "B": "The gate-drain overlap capacitance, which constitutes the entire drain-gate capacitance in the active region of operation.",
+              "C": "The source-substrate junction capacitance and the intrinsic gate-source capacitance.",
+              "D": "The field threshold adjustment implant and the bulk-junction capacitance."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 976,
+            "question": "What technique was used in the comparator design to eliminate input-offset voltages from both stages?",
+            "options": {
+              "A": "Using resistive coupling",
+              "B": "Using capacitive coupling",
+              "C": "Using inductive coupling",
+              "D": "Using optical coupling"
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 1012,
+            "question": "What is the relationship between the difference in junction voltages and absolute temperature?",
+            "options": {
+              "A": "The difference in junction voltages is inversely proportional to absolute temperature.",
+              "B": "The difference in junction voltages is proportional to absolute temperature.",
+              "C": "The difference in junction voltages is unrelated to absolute temperature.",
+              "D": "The difference in junction voltages is proportional to the square of absolute temperature."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 1028,
+            "question": "Why is the zener diode approach not popular in modern circuits?",
+            "options": {
+              "A": "The breakdown voltage of a zener diode is typically smaller than the power supplies used in modern circuits.",
+              "B": "The breakdown voltage of a zener diode is typically larger than the power supplies used in modern circuits.",
+              "C": "Zener diodes are not available in modern CMOS circuits.",
+              "D": "Zener diodes have a positive temperature dependence that makes them unsuitable for voltage references."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 1031,
+            "question": "What is the mathematical representation of an N-bit digital signal in a D/A converter?",
+            "options": {
+              "A": "\\( \\mathsf{B}_{\\mathrm{in}} = \\mathsf{b}_{1}2^{1} + \\mathsf{b}_{2}2^{2} + \\cdots + \\mathsf{b}_{\\mathsf{N}}2^{\\mathsf{N}}} \\)",
+              "B": "\\( \\mathsf{B}_{\\mathrm{in}} = \\mathsf{b}_{1}2^{-1} + \\mathsf{b}_{2}2^{-2} + \\cdots + \\mathsf{b}_{\\mathsf{N}}2^{-\\mathsf{N}}} \\)",
+              "C": "\\( \\mathsf{B}_{\\mathrm{in}} = \\mathsf{b}_{1}2^{0} + \\mathsf{b}_{2}2^{1} + \\cdots + \\mathsf{b}_{\\mathsf{N}}2^{\\mathsf{N}-1} \\)",
+              "D": "\\( \\mathsf{B}_{\\mathrm{in}} = \\mathsf{b}_{1}2^{-N} + \\mathsf{b}_{2}2^{-N+1} + \\cdots + \\mathsf{b}_{\\mathsf{N}}2^{-1} \\)"
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 1045,
+            "question": "How does the noise power change with each additional bit in an A/D converter?",
+            "options": {
+              "A": "The noise power increases by 6 dB for each additional bit.",
+              "B": "The noise power decreases by 6 dB for each additional bit.",
+              "C": "The noise power remains constant regardless of the number of bits.",
+              "D": "The noise power decreases by 3 dB for each additional bit."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 1048,
+            "question": "Under what condition is the largest capacitor switched to ground during the bit cycling phase?",
+            "options": {
+              "A": "The largest capacitor is switched to ground when Vx is less than zero.",
+              "B": "The largest capacitor is switched to ground when Vx is larger than zero.",
+              "C": "The largest capacitor is switched to ground when vin is larger than zero.",
+              "D": "The largest capacitor is switched to ground when vin is less than zero."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 1089,
+            "question": "What is the simplest method to reduce errors caused by charge injection in circuits?",
+            "options": {
+              "A": "Using fully differential design techniques for comparators",
+              "B": "Increasing the size of capacitors",
+              "C": "Reducing the clock frequency",
+              "D": "Using smaller transistors"
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 1114,
+            "question": "How does the transconductance value of the linearized approach compare to that of a single differential pair?",
+            "options": {
+              "A": "The linearized approach has a 28 percent greater transconductance than a single differential pair.",
+              "B": "The linearized approach has a 36 percent smaller transconductance than a single differential pair.",
+              "C": "The linearized approach has the same transconductance as a single differential pair.",
+              "D": "The linearized approach has a 50 percent greater transconductance than a single differential pair."
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 1177,
+            "question": "Given the following parameter values:  \nPower Supply Voltage Range (V<sub>S</sub>) = 1.6 V to 7.0 V  \nPower Supply Rejection Ratio (PSRR) = 90 dB  \n\nHow do these values affect the following parameters?  \nQuiescent Current (I<sub>Q</sub>)  \nPropagation Delay Time, High to Low (t<sub>PHL</sub>)  \nPropagation Delay Time, Low to High (t<sub>PLH</sub>)",
+            "options": {
+              "A": "I<sub>Q</sub> = 30 μA, t<sub>PHL</sub> = 250 ns, t<sub>PLH</sub> = 250 ns",
+              "B": "I<sub>Q</sub> = 28 μA, t<sub>PHL</sub> = 200 ns, t<sub>PLH</sub> = 200 ns",
+              "C": "I<sub>Q</sub> = 26 μA, t<sub>PHL</sub> = 180 ns, t<sub>PLH</sub> = 180 ns",
+              "D": "I<sub>Q</sub> = 32 μA, t<sub>PHL</sub> = 220 ns, t<sub>PLH</sub> = 220 ns"
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 1179,
+            "question": "Given the following parameter values:  \nInput Offset Voltage (V<sub>IO</sub>) = ±5.0 mV  \nVoltage Gain (A<sub>VOL</sub>) = 200 V/mV  \nLarge Signal Response Time = 300 ns  \nHow do these values affect the following parameters?  \nOutput Sink Current (I<sub>Sink</sub>)  \nOutput Saturation Voltage (V<sub>OL</sub>)",
+            "options": {
+              "A": "Output Sink Current = 6 mA, Output Saturation Voltage = 150 mV",
+              "B": "Output Sink Current = 16 mA, Output Saturation Voltage = 400 mV",
+              "C": "Output Sink Current = 10 mA, Output Saturation Voltage = 200 mV",
+              "D": "Output Sink Current = 8 mA, Output Saturation Voltage = 300 mV"
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          },
+          {
+            "index": 1204,
+            "question": "Given the following parameter values:\n- Output Voltage Swing = ±4.9 V  \n- Input Bias Current (I<sub>B</sub>) = -1.6 μA  \n- Slew Rate (SR) = 95 V/μs  \n\nHow do these values affect the following parameters?  \n- Overdrive Recovery Time  \n- Crosstalk",
+            "options": {
+              "A": "Overdrive Recovery Time = 86 ns, Crosstalk = -110 dBc",
+              "B": "Overdrive Recovery Time = 34 ns, Crosstalk = -99 dBc",
+              "C": "Overdrive Recovery Time = 95 ns, Crosstalk = -102 dBc",
+              "D": "Overdrive Recovery Time = 22 ns, Crosstalk = -117 dBc"
+            },
+            "groundtruth": "B",
+            "predicted": "A"
+          }
+        ],
+        "A_to_B": [
+          {
+            "index": 63,
+            "question": "How can the gain of a configuration be increased to make it equivalent to a two-stage op amp?",
+            "options": {
+              "A": "Replace the current-mirror load with two separate current mirrors and recombine these currents in an output stage to get a push-pull output.",
+              "B": "Increase the bias current in the input stage to enhance the transconductance.",
+              "C": "Add a resistor in series with the compensation capacitor to cancel the RHP zero.",
+              "D": "Use a cascode configuration in the output stage to reduce the output resistance."
+            },
+            "groundtruth": "A",
+            "predicted": "B"
+          },
+          {
+            "index": 82,
+            "question": "How can an operational amplifier be used to create a pseudo-PTAT current?",
+            "options": {
+              "A": "By using an op amp to make the voltage across diode D1 the same as the voltage across the series combination of resistor R and diode D2, ensuring the negative feedback loop gain is at least twice as large as the positive feedback loop gain.",
+              "B": "By directly amplifying the PTAT voltage ΔVD with the op amp and feeding it into a resistor to generate the current.",
+              "C": "By using an op amp to invert the CTAT voltage and combining it with the PTAT voltage to create a temperature-independent current.",
+              "D": "By employing an op amp to balance the voltages across two identical resistors, one carrying PTAT current and the other carrying CTAT current."
+            },
+            "groundtruth": "A",
+            "predicted": "B"
+          },
+          {
+            "index": 106,
+            "question": "How does negative feedback affect the input port of an op amp when the gain is sufficiently large?",
+            "options": {
+              "A": "It causes the input port to become a null port where both voltage and current are zero.",
+              "B": "It increases the input resistance to infinity and reduces the output resistance to zero.",
+              "C": "It creates a virtual ground only at the inverting terminal while the noninverting terminal remains active.",
+              "D": "It stabilizes the output voltage but has no effect on the input port characteristics."
+            },
+            "groundtruth": "A",
+            "predicted": "B"
+          },
+          {
+            "index": 124,
+            "question": "What components are used to compensate each second stage in the differential-in, differential-out op amp?",
+            "options": {
+              "A": "A single Miller capacitance and a nulling resistor",
+              "B": "Two Miller capacitances and a nulling resistor",
+              "C": "A single Miller capacitance without any nulling resistor",
+              "D": "Two Miller capacitances without any nulling resistor"
+            },
+            "groundtruth": "A",
+            "predicted": "B"
+          },
+          {
+            "index": 147,
+            "question": "What limits the voltage swing at the input of the push-pull cascode stage?",
+            "options": {
+              "A": "The supply voltage limits the voltage swing because large swings can cause the switch-terminal diffusions to become forward biased for bulk CMOS switches.",
+              "B": "The bias voltages VB1 and VB2 directly limit the voltage swing at the input of the push-pull cascode stage.",
+              "C": "The dynamic op amp's clock phases restrict the voltage swing to prevent power dissipation.",
+              "D": "The capacitors C1 and C2 charging during ϕ1 phase inherently limit the voltage swing."
+            },
+            "groundtruth": "A",
+            "predicted": "B"
+          },
+          {
+            "index": 406,
+            "question": "How does the mismatch in collector currents relate to the mismatch in collector resistors?",
+            "options": {
+              "A": "The mismatch in collector currents is equal in magnitude and opposite in polarity to the mismatch in collector resistors.",
+              "B": "The mismatch in collector currents is directly proportional to the mismatch in collector resistors.",
+              "C": "The mismatch in collector currents is unrelated to the mismatch in collector resistors.",
+              "D": "The mismatch in collector currents is equal in magnitude and polarity to the mismatch in collector resistors."
+            },
+            "groundtruth": "A",
+            "predicted": "B"
+          },
+          {
+            "index": 534,
+            "question": "Why is source degeneration rarely used in MOS current mirrors?",
+            "options": {
+              "A": "Because MOS transistors are inherently controlled resistors, and matching can be improved by increasing gate areas, making source degeneration unnecessary.",
+              "B": "Because source degeneration reduces the output resistance of MOS current mirrors, which is undesirable for circuit performance.",
+              "C": "Because MOS current mirrors require additional chip area when using source degeneration, making it impractical for most applications.",
+              "D": "Because source degeneration complicates the fabrication process of MOS transistors, leading to higher production costs."
+            },
+            "groundtruth": "A",
+            "predicted": "B"
+          },
+          {
+            "index": 831,
+            "question": "How does the mismatch in collector currents relate to the mismatch in collector resistors?",
+            "options": {
+              "A": "The mismatch in collector currents is equal in magnitude and opposite in polarity to the mismatch in collector resistors.",
+              "B": "The mismatch in collector currents is directly proportional to the mismatch in collector resistors.",
+              "C": "The mismatch in collector currents is unrelated to the mismatch in collector resistors.",
+              "D": "The mismatch in collector currents is equal in magnitude and polarity to the mismatch in collector resistors."
+            },
+            "groundtruth": "A",
+            "predicted": "B"
+          },
+          {
+            "index": 1016,
+            "question": "What is the condition for achieving zero temperature dependence in a bandgap voltage reference?",
+            "options": {
+              "A": "The output voltage must be equal to the bandgap voltage plus a small correction term to account for second-order effects.",
+              "B": "The current densities must be chosen to be equal.",
+              "C": "The temperature must be maintained at absolute zero.",
+              "D": "The output voltage must be independent of the current densities chosen."
+            },
+            "groundtruth": "A",
+            "predicted": "B"
+          },
+          {
+            "index": 1135,
+            "question": "What happens when the phase difference between the input signal and the VCO output is zero?",
+            "options": {
+              "A": "The average output of the phase detector is zero because the input signal and VCO output are uncorrelated due to the 90° phase offset.",
+              "B": "The output of the low-pass filter reaches its maximum value, equal to the product of the amplitudes of the two sinusoids.",
+              "C": "The phase detector generates a negative control voltage, causing the VCO frequency to decrease.",
+              "D": "The system enters an unstable state where the phase difference oscillates randomly."
+            },
+            "groundtruth": "A",
+            "predicted": "B"
+          },
+          {
+            "index": 1224,
+            "question": "Given the following parameter values:  \nOutput voltage (Vo) = 5.0 V  \nQuiescent current (Iq) = 3.8 mA  \nDropout voltage (Vd) = 1.7 V  \n\nHow will these values affect the following parameters?  \nRipple rejection (RR), Output noise voltage (V<sub>N</sub>)",
+            "options": {
+              "A": "Ripple rejection (RR) = 41 dB, Output noise voltage (V<sub>N</sub>) = 42 μV/V",
+              "B": "Ripple rejection (RR) = 49 dB, Output noise voltage (V<sub>N</sub>) = 42 μV/V",
+              "C": "Ripple rejection (RR) = 41 dB, Output noise voltage (V<sub>N</sub>) = 50 μV/V",
+              "D": "Ripple rejection (RR) = 49 dB, Output noise voltage (V<sub>N</sub>) = 50 μV/V"
+            },
+            "groundtruth": "A",
+            "predicted": "B"
+          },
+          {
+            "index": 1228,
+            "question": "Given the following parameter values:  \nOutput current (I<sub>OUT</sub>) = 100 mA  \nInput voltage (V<sub>IN</sub>) = 30 V  \nTemperature coefficient (ΔV<sub>OUT</sub> / ΔT<sub>a</sub>) = +0.5 mV/°C  \n\nHow will these values affect the following parameters?  \nOutput voltage (V<sub>OUT</sub>)  \nDrop voltage (V<sub>DIF</sub>)",
+            "options": {
+              "A": "Output voltage = 3.3 V",
+              "B": "Output voltage = 3.399 V",
+              "C": "Output voltage = 3.201 V",
+              "D": "Output voltage = 3.3 V"
+            },
+            "groundtruth": "A",
+            "predicted": "B"
+          },
+          {
+            "index": 1236,
+            "question": "Given the following parameter values:\nInput offset voltage (V<sub>io</sub>) = 2 mV  \nInput bias current (I<sub>ib</sub>) = 20 nA  \nSupply current (I<sub>CC</sub>) = 0.7 mA  \n\nHow will these values affect the following parameters? (unchanged)  \nGain bandwidth product (GBP)  \nSlew rate (SR)",
+            "options": {
+              "A": "GBP = 0.7 MHz, SR = 0.2 V/μs",
+              "B": "GBP = 1.1 MHz, SR = 0.2 V/μs",
+              "C": "GBP = 0.7 MHz, SR = 0.6 V/μs",
+              "D": "GBP = 1.1 MHz, SR = 0.6 V/μs"
+            },
+            "groundtruth": "A",
+            "predicted": "B"
+          },
+          {
+            "index": 1238,
+            "question": "Given the following parameter values:\nHigh-level output voltage (V<sub>OH</sub>) = 27 V  \nLow-level output voltage (V<sub>OL</sub>) = 20 mV  \nOutput short-circuit current (I<sub>source</sub>) = 60 mA  \n\nHow will these values affect the following parameters? (unchanged)  \nEquivalent input noise voltage (e<sub>n</sub>)  \nUnity gain bandwidth (GBP)",
+            "options": {
+              "A": "e<sub>n</sub> = 55 nV/√Hz, GBP = 0.7 MHz",
+              "B": "e<sub>n</sub> = 55 nV/√Hz, GBP = 1.1 MHz",
+              "C": "e<sub>n</sub> = 60 nV/√Hz, GBP = 0.7 MHz",
+              "D": "e<sub>n</sub> = 60 nV/√Hz, GBP = 1.1 MHz"
+            },
+            "groundtruth": "A",
+            "predicted": "B"
+          }
+        ],
+        "A_to_C": [
+          {
+            "index": 83,
+            "question": "What conditions must be met for the negative feedback loop gain in circuits generating pseudo-PTAT currents?",
+            "options": {
+              "A": "The negative feedback loop gain should be at least twice as large as the positive feedback loop gain.",
+              "B": "The negative feedback loop gain should be equal to the positive feedback loop gain.",
+              "C": "The negative feedback loop gain should be at least half as large as the positive feedback loop gain.",
+              "D": "The negative feedback loop gain should be negligible compared to the positive feedback loop gain."
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 90,
+            "question": "What is the formula for drain current in the SPICE LEVEL 3 model when the gate-source voltage exceeds the threshold voltage?",
+            "options": {
+              "A": "i_D = BETA [v_GS - V_T - (1 + f_b)/2 * v_DS] v_DS",
+              "B": "i_D = KP (W_eff / L_eff) [v_GS - V_T] v_DS",
+              "C": "i_D = UO * C_ox (W/L) [(v_GS - V_T) v_DS - v_DS^2/2]",
+              "D": "i_D = μ_eff C_ox (W/L) (v_GS - V_T)^2"
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 162,
+            "question": "At what normalized time does the steepest slope of the step response occur?",
+            "options": {
+              "A": "t_n = ln(m) / (m - 1)",
+              "B": "t_n = m / (m - 1)",
+              "C": "t_n = (m - 1) / ln(m)",
+              "D": "t_n = e^(m - 1) / m"
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 186,
+            "question": "How is the full scale range (FSR) defined for a DAC?",
+            "options": {
+              "A": "FSR is defined as the limit of FS as the number of bits N approaches infinity, equal to V_REF.",
+              "B": "FSR is the peak-to-peak value of the quantization noise, equal to 1LSB.",
+              "C": "FSR is the ratio of the full scale to the smallest difference that can be resolved.",
+              "D": "FSR is the inherent uncertainty in digitizing an analog value with a finite resolution converter."
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 188,
+            "question": "What is the expression for the signal-to-noise ratio (SNR) of a DAC?",
+            "options": {
+              "A": "SNR = (v_OUT rms) / (FSR / (2^N * sqrt(12)))",
+              "B": "SNR = (FSR / (2 * sqrt(2))) / (FSR / (2^N * sqrt(12)))",
+              "C": "SNR = 6.02N dB + 1.76 dB",
+              "D": "SNR = (SNR_actual - 1.76) / 6.02"
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 373,
+            "question": "Which parameters contribute to the input-referred random offset voltage in the BiCMOS structure?",
+            "options": {
+              "A": "The thresholds of the MOS transistors and the W/L of the MOS transistors",
+              "B": "The base currents of the bipolar transistors and the VBE(on) of the bipolar transistors",
+              "C": "The VCE(sat) of the bipolar transistors and the bias currents IB1 and IB2",
+              "D": "The gains of the current mirrors and the supply voltage VCC"
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 798,
+            "question": "Which parameters contribute to the input-referred random offset voltage in the BiCMOS structure?",
+            "options": {
+              "A": "The thresholds of the MOS transistors and the W/L of the MOS transistors",
+              "B": "The base currents of the bipolar transistors and the VBE(on) of the bipolar transistors",
+              "C": "The VCE(sat) of the bipolar transistors and the bias currents IB1 and IB2",
+              "D": "The gains of the current mirrors and the supply voltage VCC"
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 979,
+            "question": "Why is the droop rate in hold mode less important in high-speed CMOS designs?",
+            "options": {
+              "A": "The droop rate is negligible in high-speed CMOS designs because leakage currents are significantly reduced due to the absence of bipolar transistors and reverse-biased junctions.",
+              "B": "High-speed CMOS designs inherently eliminate all forms of droop rate, making it irrelevant in such applications.",
+              "C": "The droop rate is less important in high-speed CMOS designs because the focus is primarily on minimizing aperture jitter and maximizing slew rate.",
+              "D": "In high-speed CMOS designs, the droop rate is actively compensated by additional circuitry, rendering it a non-issue."
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 1085,
+            "question": "What components are used in the BiCMOS integrator for linearization and tuning?",
+            "options": {
+              "A": "MOS transistors in the active region for linearization and a translinear multiplier for tuning",
+              "B": "Bipolar transistors for linearization and a transconductance amplifier for tuning",
+              "C": "MOS transistors in the saturation region for linearization and a voltage-controlled resistor for tuning",
+              "D": "JFET transistors for linearization and a digital potentiometer for tuning"
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 1122,
+            "question": "How does the signal swing differ between single-ended and differential signals?",
+            "options": {
+              "A": "Single-ended signals have a maximum peak-to-peak swing of 2V, while differential signals have a maximum peak-to-peak swing of 4V.",
+              "B": "Single-ended signals have a maximum peak-to-peak swing of 1V, while differential signals have a maximum peak-to-peak swing of 2V.",
+              "C": "Single-ended signals have a maximum peak-to-peak swing of 4V, while differential signals have a maximum peak-to-peak swing of 2V.",
+              "D": "Single-ended signals and differential signals have the same maximum peak-to-peak swing of 2V."
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 1221,
+            "question": "Given the following parameter values:  \nReference Voltage (V<sub>REF</sub>) = 1.250 V  \nOutput Voltage (V<sub>OUT</sub>) = 3.3 V  \nDropout Voltage (V<sub>drop</sub>) = 1.05 V  \n\nHow will these values affect the following parameters?  \nLine Regulation (R<sub>line</sub>)  \nLoad Regulation (R<sub>load</sub>)",
+            "options": {
+              "A": "Line Regulation = 9 mV, Load Regulation = 10 mV",
+              "B": "Line Regulation = 18 mV, Load Regulation = 10 mV",
+              "C": "Line Regulation = 9 mV, Load Regulation = 18 mV",
+              "D": "Line Regulation = 18 mV, Load Regulation = 18 mV"
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 1226,
+            "question": "Given the following parameter values:  \nRipple rejection (RR) = 41 dB  \nOutput noise voltage (V<sub>N</sub>) = 42 μV/V  \nQuiescent current (Iq) = 3.8 mA  \n\nHow will these values affect the following parameters?  \nLine regulation (ΔVo), Load regulation (ΔVo)",
+            "options": {
+              "A": "Line regulation (ΔVo) = 32 mV, Load regulation (ΔVo) = 15 mV",
+              "B": "Line regulation (ΔVo) = 50 mV, Load regulation (ΔVo) = 30 mV",
+              "C": "Line regulation (ΔVo) = 32 mV, Load regulation (ΔVo) = 30 mV",
+              "D": "Line regulation (ΔVo) = 50 mV, Load regulation (ΔVo) = 15 mV"
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 1240,
+            "question": "Given the following parameter values:  \nInput bias current (I<sub>B</sub>) = -35 nA  \nInput offset current (I<sub>OS</sub>) = ±4 nA  \nInput noise voltage density (e<sub>N</sub>) = 35 nV/√Hz  \n\nHow do these values affect the following parameters?  \nTotal harmonic distortion + noise (THD+N)  \nOutput short-circuit current (I<sub>SC</sub>)",
+            "options": {
+              "A": "THD+N = 0.001%, I<sub>SC</sub> = ±20 mA",
+              "B": "THD+N = 0.002%, I<sub>SC</sub> = ±15 mA",
+              "C": "THD+N = 0.001%, I<sub>SC</sub> = ±10 mA",
+              "D": "THD+N = 0.002%, I<sub>SC</sub> = ±5 mA"
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 1248,
+            "question": "Given the following parameters:\nInput bias current (I<sub>B</sub>) = 3 μA  \nInput offset voltage (V<sub>OS</sub>) = 0.4 mV  \nInput resistance (R<sub>IN</sub>) = 40 MΩ  \n\nHow will these values affect the following parameters? (unchanged)  \nSmall-signal -3 dB bandwidth (BW)  \nSlew rate (SR)",
+            "options": {
+              "A": "BW = 160 MHz, SR = 3000 V/μs",
+              "B": "BW = 62 MHz, SR = 2500 V/μs",
+              "C": "BW = 40 MHz, SR = 3000 V/μs",
+              "D": "BW = 160 MHz, SR = 2500 V/μs"
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 1251,
+            "question": "Given the following parameter values:  \nInput Offset Voltage (V<sub>OS</sub>) = 0.4 mV  \nCommon-Mode Rejection Ratio (CMRR) = 70 dB  \nPower Supply Rejection Ratio (PSRR) = 82 dB  \n\nHow will these values affect the following parameters?  \nGain-Bandwidth Product (GBP)  \nSlew Rate (SR)",
+            "options": {
+              "A": "GBP = 1 MHz",
+              "B": "GBP = 2 MHz",
+              "C": "GBP = 1 MHz",
+              "D": "GBP = 2 MHz"
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 1252,
+            "question": "Given the following parameter values:  \nOutput Voltage Swing from Rail (V<sub>OH</sub>, V<sub>OL</sub>) = 4.997 V, 3 mV (R<sub>L</sub> = 100 kΩ)  \nOutput Current (I<sub>SINK</sub>) = 75 mA  \n\nHow will these values affect the following parameters?  \nQuiescent Current per Amplifier (I<sub>Q</sub>)  \nSettling Time to 0.1% (t<sub>s</sub>)",
+            "options": {
+              "A": "I<sub>Q</sub> = 40 μA",
+              "B": "I<sub>Q</sub> = 50 μA",
+              "C": "I<sub>Q</sub> = 40 μA",
+              "D": "I<sub>Q</sub> = 50 μA"
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 1253,
+            "question": "Given the following parameter values:  \nVoltage Noise Density (e<sub>n</sub>) = 27 nV/√Hz (f = 1 kHz)  \nSlew Rate (SR) = 0.6 V/μs  \n\nHow will these values affect the following parameters?  \nOutput Voltage Swing from Rail (V<sub>OH</sub>, V<sub>OL</sub>)  \nGain-Bandwidth Product (GBP)",
+            "options": {
+              "A": "V<sub>OH</sub> = 4.997 V",
+              "B": "V<sub>OH</sub> = 4.992 V",
+              "C": "V<sub>OH</sub> = 4.997 V",
+              "D": "V<sub>OH</sub> = 4.992 V"
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          },
+          {
+            "index": 1254,
+            "question": "Given the following parameter values:  \nInput Offset Voltage (V<sub>OS</sub>) = ±4.5 mV  \nCommon-Mode Rejection Ratio (CMRR) = 76 dB  \nSupply Voltage (V<sub>DD</sub>) = 1.8 V  \n\nHow do these values affect the following parameters?  \nGain Bandwidth Product (GBWP)  \nPhase Margin (PM)",
+            "options": {
+              "A": "GBWP = 1.0 MHz, PM = 90°",
+              "B": "GBWP = 0.8 MHz, PM = 75°",
+              "C": "GBWP = 1.2 MHz, PM = 85°",
+              "D": "GBWP = 0.5 MHz, PM = 70°"
+            },
+            "groundtruth": "A",
+            "predicted": "C"
+          }
+        ],
+        "B_to_D": [
+          {
+            "index": 93,
+            "question": "What parameters are required for SPICE to calculate VT0, KP, and GAMMA from process parameters?",
+            "options": {
+              "A": "NSS, TOX, U0, NSUB, PHI",
+              "B": "NSS, TOX, U0, NSUB",
+              "C": "NSS, TOX, U0, NSUB, LAMBDA",
+              "D": "NSS, TOX, U0, NSUB, PHI, LAMBDA"
+            },
+            "groundtruth": "B",
+            "predicted": "D"
+          },
+          {
+            "index": 246,
+            "question": "How many comparators are needed for a folding and interpolating ADC with N1=3 coarse bits, N2=4 fine bits, and an interpolation of 4 on the fine bits?",
+            "options": {
+              "A": "16 comparators",
+              "B": "24 comparators",
+              "C": "32 comparators",
+              "D": "48 comparators"
+            },
+            "groundtruth": "B",
+            "predicted": "D"
+          },
+          {
+            "index": 291,
+            "question": "What is the purpose of using switched amplifiers in the dynamically biased cascode amplifier?",
+            "options": {
+              "A": "To increase the power dissipation of the amplifier",
+              "B": "To reduce the parasitics in the amplifier",
+              "C": "To eliminate the need for bias voltages",
+              "D": "To decrease the settling time of the amplifier"
+            },
+            "groundtruth": "B",
+            "predicted": "D"
+          },
+          {
+            "index": 453,
+            "question": "What causes burst noise in electronic circuits?",
+            "options": {
+              "A": "Built-in potential",
+              "B": "Buried layer",
+              "C": "Superbeta transistors",
+              "D": "Zener diode"
+            },
+            "groundtruth": "B",
+            "predicted": "D"
+          },
+          {
+            "index": 703,
+            "question": "What types of noise are produced by pn junctions under reverse-breakdown conditions in bias reference circuits?",
+            "options": {
+              "A": "Thermal noise and flicker noise",
+              "B": "Voltage noise and current noise",
+              "C": "Voltage noise and thermal noise",
+              "D": "Current noise and flicker noise"
+            },
+            "groundtruth": "B",
+            "predicted": "D"
+          },
+          {
+            "index": 734,
+            "question": "How is noise represented in linear two-port networks?",
+            "options": {
+              "A": "Noise in linear two-port networks is represented using a single noise source at the input.",
+              "B": "Noise in linear two-port networks is represented using a combination of noise sources at both input and output ports.",
+              "C": "Noise in linear two-port networks is represented using a single noise source at the output.",
+              "D": "Noise in linear two-port networks is represented using a combination of equivalent noise sources at the input port only."
+            },
+            "groundtruth": "B",
+            "predicted": "D"
+          },
+          {
+            "index": 878,
+            "question": "What causes burst noise in electronic circuits?",
+            "options": {
+              "A": "Built-in potential",
+              "B": "Buried layer",
+              "C": "Superbeta transistors",
+              "D": "Zener diode"
+            },
+            "groundtruth": "B",
+            "predicted": "D"
+          }
+        ],
+        "A_to_D": [
+          {
+            "index": 97,
+            "question": "What is the purpose of the .OPTION LIMPTS command in the PSPICE input file for the open-loop configuration?",
+            "options": {
+              "A": "To specify the maximum number of points to be used in the simulation.",
+              "B": "To define the voltage supply limits for the circuit.",
+              "C": "To set the frequency range for the AC analysis.",
+              "D": "To control the output file size by limiting the number of data points."
+            },
+            "groundtruth": "A",
+            "predicted": "D"
+          },
+          {
+            "index": 1233,
+            "question": "Given the following parameter values:\nLine Regulation (R<sub>line</sub>) = 0.04 %/V  \nLoad Regulation (R<sub>load</sub>) = 25 mV  \nReference Voltage (V<sub>REF</sub>) = 1.25 V  \nAdjustable Pin Current (I<sub>ADJ</sub>) = 100 μA  \n\nHow do these values influence the following parameters?\nRipple Rejection (RR)  \nRMS Noise (e<sub>N</sub>)  \nMaximum Output Current (I<sub>O(MAX)</sub>)",
+            "options": {
+              "A": "RR = 66 dB, e<sub>N</sub> = 0.01 %/V, I<sub>O(MAX)</sub> = 2.2 A",
+              "B": "RR = 75 dB, e<sub>N</sub> = 0.003 %/V, I<sub>O(MAX)</sub> = 1.0 A",
+              "C": "RR = 60 dB, e<sub>N</sub> = 0.01 %/V, I<sub>O(MAX</sub>) = 0.3 A",
+              "D": "RR = 66 dB, e<sub>N</sub> = 0.003 %/V, I<sub>O(MAX)</sub> = 2.2 A"
+            },
+            "groundtruth": "A",
+            "predicted": "D"
+          },
+          {
+            "index": 1235,
+            "question": "Given the following parameter values:\nAdjustable Pin Current Change (ΔI<sub>ADJ</sub>) = 5 μA  \nReference Voltage (V<sub>REF</sub>) = 1.25 V  \nLoad Regulation (R<sub>load</sub>) = 25 mV  \n\nHow do these values influence the following parameters?\nLine Regulation (R<sub>line</sub>)  \nMaximum Output Current (I<sub>O(MAX)</sub>)  \nRipple Rejection (RR)",
+            "options": {
+              "A": "R<sub>line</sub> = 0.04 %/V, I<sub>O(MAX)</sub> = 2.2 A, RR = 66 dB",
+              "B": "R<sub>line</sub> = 0.01 %/V, I<sub>O(MAX)</sub> = 1.0 A, RR = 75 dB",
+              "C": "R<sub>line</sub> = 0.07 %/V, I<sub>O(MAX)</sub> = 0.3 A, RR = 60 dB",
+              "D": "R<sub>line</sub> = 0.04 %/V, I<sub>O(MAX)</sub> = 2.2 A, RR = 75 dB"
+            },
+            "groundtruth": "A",
+            "predicted": "D"
+          },
+          {
+            "index": 1250,
+            "question": "Given the following parameters:\nSlew rate (SR) = 3000 V/μs  \nOutput short-circuit current (I<sub>SC</sub>) = 60 mA  \nSupply current (I<sub>S</sub>) = 8 mA  \n\nHow will these values affect the following parameters? (unchanged)  \nSettling time (t<sub>s</sub>)  \nPhase margin (ϕ<sub>m</sub>)",
+            "options": {
+              "A": "t<sub>s</sub> = 65 ns, ϕ<sub>m</sub> = 40°",
+              "B": "t<sub>s</sub> = 2 μs, ϕ<sub>m</sub> = 40°",
+              "C": "t<sub>s</sub> = 65 ns, ϕ<sub>m</sub> = 62°",
+              "D": "t<sub>s</sub> = 2 μs, ϕ<sub>m</sub> = 62°"
+            },
+            "groundtruth": "A",
+            "predicted": "D"
+          }
+        ],
+        "C_to_B": [
+          {
+            "index": 119,
+            "question": "How does the closed-loop -3 dB frequency behave with respect to the closed-loop voltage gain in current feedback op amps?",
+            "options": {
+              "A": "The closed-loop -3 dB frequency decreases as the closed-loop voltage gain increases.",
+              "B": "The closed-loop -3 dB frequency increases as the closed-loop voltage gain increases.",
+              "C": "The closed-loop -3 dB frequency remains constant regardless of the closed-loop voltage gain.",
+              "D": "The closed-loop -3 dB frequency is inversely proportional to the square of the closed-loop voltage gain."
+            },
+            "groundtruth": "C",
+            "predicted": "B"
+          },
+          {
+            "index": 132,
+            "question": "What techniques are used to boost the output current in micropower op amps and how do they work?",
+            "options": {
+              "A": "Using negative feedback with loop gain greater than unity to increase current output",
+              "B": "Adding external power amplifiers to directly boost the current",
+              "C": "Employing positive feedback with loop gain less than unity to enhance output current",
+              "D": "Increasing the supply voltage to force higher current flow"
+            },
+            "groundtruth": "C",
+            "predicted": "B"
+          },
+          {
+            "index": 194,
+            "question": "What are the INL and DNL expressions for a DAC combination where the MSB is voltage scaling and the LSB is charge scaling?",
+            "options": {
+              "A": "INL = 2^(N-1) * (ΔR/R) + 2^(K-1) * (ΔC/C), DNL = 2^K * (ΔR/R) + (2^N - 1) * (ΔC/C)",
+              "B": "INL = 2^(N-1) * (ΔR/R) + 2^K * (ΔC/C), DNL = 2^(K-1) * (ΔR/R) + (2^N - 1) * (ΔC/C)",
+              "C": "INL = 2^(N-1) * (ΔR/R) + 2^(K-1) * (ΔC/C), DNL = 2^K * (ΔR/R)",
+              "D": "INL = 2^(M-1) * (ΔR/R) + 2^N * (ΔC/C), DNL = (2^N - 1) * (ΔR/R) + 2^M * (ΔC/C)"
+            },
+            "groundtruth": "C",
+            "predicted": "B"
+          },
+          {
+            "index": 479,
+            "question": "How can a reset switch at the op-amp output reduce the effect of nonzero offset voltage on the minimum clock period?",
+            "options": {
+              "A": "By increasing the maximum output voltage during φ1 and extending the time to reach this value",
+              "B": "By connecting the switch to a bias point between supplies during φ2 and turning it off during φ1",
+              "C": "By reducing both the maximum output voltage during φ1 and the time to reach this value, thereby decreasing phase duration requirements",
+              "D": "By eliminating the need for any clock period adjustments through continuous reset operation"
+            },
+            "groundtruth": "C",
+            "predicted": "B"
+          },
+          {
+            "index": 548,
+            "question": "How does increasing the number of independent outputs affect the gain error in a current mirror?",
+            "options": {
+              "A": "Increasing the number of independent outputs has no effect on the gain error in a current mirror.",
+              "B": "Increasing the number of independent outputs reduces the gain error in a current mirror because the base current is distributed among more transistors.",
+              "C": "Increasing the number of independent outputs worsens the gain error in a current mirror due to the increased total base current.",
+              "D": "Increasing the number of independent outputs only affects the gain error if emitter degeneration resistors are present."
+            },
+            "groundtruth": "C",
+            "predicted": "B"
+          },
+          {
+            "index": 904,
+            "question": "How can a reset switch at the op-amp output reduce the effect of nonzero offset voltage on the minimum clock period?",
+            "options": {
+              "A": "By increasing the maximum output voltage during φ1 and extending the time to reach this value",
+              "B": "By connecting the switch to a bias point between supplies during φ2 and turning it off during φ1",
+              "C": "By reducing both the maximum output voltage during φ1 and the time to reach this value, thereby decreasing phase duration requirements",
+              "D": "By eliminating the need for any clock period adjustments through continuous reset operation"
+            },
+            "groundtruth": "C",
+            "predicted": "B"
+          },
+          {
+            "index": 1175,
+            "question": "Given the following parameter values:  \nIntegral Nonlinearity (INL, Differential Input, End-Point Fit, G = 64) = ±10 ppm  \nNormal-Mode Rejection (f<sub>IN</sub> = 50 Hz or 60 Hz ±1 Hz, Internal Oscillator, f<sub>DATA</sub> = 10 SPS) = 90 dB  \nExternal Clock Input Frequency (f<sub>CLKIN</sub>) = 4.9152 MHz  \nHow do these values affect the following parameters?  \nPower-Supply Rejection (at DC, AVDD = 0.1 V)  \nInput-Referred Noise (f<sub>DATA</sub> = 80 SPS)  \nResolution",
+            "options": {
+              "A": "Power-Supply Rejection = 100 dB, Input-Referred Noise = 53 nV rms, Resolution = 20 bits",
+              "B": "Power-Supply Rejection = 90 dB, Input-Referred Noise = 53 nV rms, Resolution = 20 bits",
+              "C": "Power-Supply Rejection = 100 dB, Input-Referred Noise = 100 nV rms, Resolution = 20 bits",
+              "D": "Power-Supply Rejection = 90 dB, Input-Referred Noise = 100 nV rms, Resolution = 20 bits"
+            },
+            "groundtruth": "C",
+            "predicted": "B"
+          },
+          {
+            "index": 1183,
+            "question": "Given the following parameter values:\nVoltage gain (A<sub>V</sub>) = 40 V/mV  \nResponse time = 200 ns  \nSupply current (I<sub>CC</sub>) = +2.4 mA  \n\nHow will these values affect the following parameters?\nInput offset voltage (V<sub>IO</sub>)  \nInput offset current (I<sub>IO</sub>)",
+            "options": {
+              "A": "Input offset voltage (V<sub>IO</sub>) = 0.7 mV, Input offset current (I<sub>IO</sub>) = 10 nA",
+              "B": "Input offset voltage (V<sub>IO</sub>) = 3.0 mV, Input offset current (I<sub>IO</sub>) = 70 nA",
+              "C": "Input offset voltage (V<sub>IO</sub>) = 2.0 mV, Input offset current (I<sub>IO</sub>) = 1.7 nA",
+              "D": "Input offset voltage (V<sub>IO</sub>) = 4.0 mV, Input offset current (I<sub>IO</sub>) = 20 nA"
+            },
+            "groundtruth": "C",
+            "predicted": "B"
+          }
+        ],
+        "D_to_B": [
+          {
+            "index": 229,
+            "question": "If a modulator has two loops, what is the minimum number of bits for the quantizer to meet a 16-bit ADC specification with 100kHz bandwidth and 10MHz sampling frequency?",
+            "options": {
+              "A": "1-bit",
+              "B": "4-bit",
+              "C": "3-bit",
+              "D": "2-bit"
+            },
+            "groundtruth": "D",
+            "predicted": "B"
+          },
+          {
+            "index": 600,
+            "question": "What is the relationship between the current delivered by the driver stage and the base current of the emitter follower?",
+            "options": {
+              "A": "The current delivered by the driver stage is equal to the emitter current of the emitter follower.",
+              "B": "The current delivered by the driver stage is about 1/βF times the base current of the emitter follower.",
+              "C": "The current delivered by the driver stage is about 1/βF times the emitter current of the emitter follower.",
+              "D": "The current delivered by the driver stage is equal to the base current of the emitter follower."
+            },
+            "groundtruth": "D",
+            "predicted": "B"
+          },
+          {
+            "index": 1160,
+            "question": "Given the following parameter values:  \nCrystal or external clock frequency = 11.0592 MHz  \nOutput data coding = 800000 HEX  \nInput common mode rejection = 100 dB  \n\nHow do these values affect the following parameters?  \nTemperature drift (Gain = 128)  \nPower supply rejection (Gain = 128, RATE = 0)",
+            "options": {
+              "A": "Temperature drift = ±6 nV/°C, Power supply rejection = 100 dB",
+              "B": "Temperature drift = ±6 nV/°C, Power supply rejection = 90 dB",
+              "C": "Temperature drift = ±5 ppm/°C, Power supply rejection = 90 dB",
+              "D": "Temperature drift = ±5 ppm/°C, Power supply rejection = 100 dB"
+            },
+            "groundtruth": "D",
+            "predicted": "B"
+          },
+          {
+            "index": 1190,
+            "question": "给定以下参数值：\n电源电压 (V<sub>S</sub>) = 5 V  \n共模范围 (V<sub>CM</sub>) = (V<sup>-</sup>) 至 (V<sup>+</sup> - 1.5 V)  \n低电平输出电流 (I<sub>OL</sub>) = 6 mA  \n\n请问这些值将如何影响以下参数？\n高电平输出漏电流 (I<sub>OH-LKG</sub>)  \n静态电流 (I<sub>Q</sub>)  \n低电平输出电压 (V<sub>OL</sub>)",
+            "options": {
+              "A": "I<sub>OH-LKG</sub> = 0.3 nA；I<sub>Q</sub> = 400 μA；V<sub>OL</sub> = 400 mV",
+              "B": "I<sub>OH-LKG</sub> = 0.3 nA；I<sub>Q</sub> = 550 μA；V<sub>OL</sub> = 400 mV",
+              "C": "I<sub>OH-LKG</sub> = 0.1 nA；I<sub>Q</sub> = 550 μA；V<sub>OL</sub> = 110 mV",
+              "D": "I<sub>OH-LKG</sub> = 0.1 nA；I<sub>Q</sub> = 400 μA；V<sub>OL</sub> = 110 mV"
+            },
+            "groundtruth": "D",
+            "predicted": "B"
+          },
+          {
+            "index": 1217,
+            "question": "Given the following parameter values:  \nInput-referred offset voltage (V<sub>IO</sub>) = ±265 µV  \nClosed-loop output impedance = 0.02 Ω  \nContinuous output current = ±65 mA  \n\nHow do these values affect the following parameters?  \nOvershoot and undershoot  \nInternal feedback trace resistance mismatch  \nInput offset current drift",
+            "options": {
+              "A": "Overshoot and undershoot = 4%",
+              "B": "Overshoot and undershoot = 6%",
+              "C": "Overshoot and undershoot = 10%",
+              "D": "Overshoot and undershoot = 8%"
+            },
+            "groundtruth": "D",
+            "predicted": "B"
+          },
+          {
+            "index": 1220,
+            "question": "Given the following parameter values:  \nQuiescent Current (Iq) = 5.5 mA  \nDropout Voltage (Vd) = 1.7 V  \nTemperature Coefficient of Vo (ΔVo/ΔT) = 0.65 mV/°C  \n\nHow do these values affect the following parameters?  \nOutput Noise Voltage (Vn)  \nRipple Rejection (RR)  \nLine Regulation (ΔVo)",
+            "options": {
+              "A": "Output Noise Voltage (Vn) = 60 μV, Ripple Rejection (RR) = 50 dB, Line Regulation (ΔVo) = 160 mV",
+              "B": "Output Noise Voltage (Vn) = 50 μV, Ripple Rejection (RR) = 45 dB, Line Regulation (ΔVo) = 120 mV",
+              "C": "Output Noise Voltage (Vn) = 30 μV, Ripple Rejection (RR) = 40 dB, Line Regulation (ΔVo) = 100 mV",
+              "D": "Output Noise Voltage (Vn) = 40 μV, Ripple Rejection (RR) = 49 dB, Line Regulation (ΔVo) = 150 mV"
+            },
+            "groundtruth": "D",
+            "predicted": "B"
+          }
+        ],
+        "B_to_C": [
+          {
+            "index": 263,
+            "question": "What techniques can be used to achieve high current overdrive in strong inversion circuits?",
+            "options": {
+              "A": "Using transistors operating in the weak inversion region",
+              "B": "Applying micropower techniques introduced in the section",
+              "C": "Increasing power-supply voltages",
+              "D": "Utilizing high power-supply currents"
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 353,
+            "question": "What type of dopant is used in the isolation diffusion process and what is its typical sheet resistance range?",
+            "options": {
+              "A": "Phosphorus (n-type) dopant with a sheet resistance range of 20-40 Ω/□",
+              "B": "Boron (p-type) dopant with a sheet resistance range of 20-40 Ω/□",
+              "C": "Boron (p-type) dopant with a sheet resistance range of 100-300 Ω/□",
+              "D": "Arsenic (n-type) dopant with a sheet resistance range of 100-300 Ω/□"
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 488,
+            "question": "How does common-mode noise affect the output voltage if the op-amp is perfectly balanced?",
+            "options": {
+              "A": "Common-mode noise causes a significant differential-mode output voltage even if the op-amp is perfectly balanced.",
+              "B": "Common-mode noise does not affect the output voltage at all if the op-amp is perfectly balanced.",
+              "C": "Common-mode noise causes a small common-mode output voltage but does not affect the differential output voltage if the op-amp is perfectly balanced.",
+              "D": "Common-mode noise introduces a large differential noise signal across the op-amp inputs if the op-amp is perfectly balanced."
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 510,
+            "question": "How is the depletion capacitance under the gate allocated to the source and drain in the active region?",
+            "options": {
+              "A": "The entire depletion capacitance under the gate is allocated to the drain in the active region.",
+              "B": "Two-thirds of the depletion capacitance under the gate is allocated to the source, and none is allocated to the drain in the active region.",
+              "C": "Half of the depletion capacitance under the gate is allocated to the source, and the other half is allocated to the drain in the active region.",
+              "D": "The depletion capacitance under the gate is equally distributed between the source and drain in all operating conditions."
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 516,
+            "question": "What does the GAMMA parameter represent in MOSFET modeling?",
+            "options": {
+              "A": "Transconductance parameter",
+              "B": "Threshold voltage parameter",
+              "C": "Channel-length modulation parameter",
+              "D": "Surface potential"
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 596,
+            "question": "What assumptions are made about the op amps when analyzing the voltage-current converter's harmonic distortion?",
+            "options": {
+              "A": "The op amps are assumed to have infinite gain and no mismatch in resistor values.",
+              "B": "The op amps are approximated by voltage-controlled voltage sources with a gain of 10,000, and resistor mismatches are considered.",
+              "C": "The op amps are assumed to be ideal, with perfect matching of all components and no harmonic distortion.",
+              "D": "The op amps are modeled with a gain of 1,000 and transistor IS values mismatch by ±5 percent."
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 643,
+            "question": "What is the -3 dB frequency of the small-signal voltage gain for the common-emitter transistor stage using the Miller approximation?",
+            "options": {
+              "A": "10 MHz",
+              "B": "15 MHz",
+              "C": "20 MHz",
+              "D": "25 MHz"
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 778,
+            "question": "What type of dopant is used in the isolation diffusion process and what is its typical sheet resistance range?",
+            "options": {
+              "A": "Phosphorus (n-type) dopant with a sheet resistance range of 20-40 Ω/□",
+              "B": "Boron (p-type) dopant with a sheet resistance range of 20-40 Ω/□",
+              "C": "Boron (p-type) dopant with a sheet resistance range of 100-300 Ω/□",
+              "D": "Arsenic (n-type) dopant with a sheet resistance range of 100-300 Ω/□"
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 913,
+            "question": "How does common-mode noise affect the output voltage if the op-amp is perfectly balanced?",
+            "options": {
+              "A": "Common-mode noise causes a significant differential-mode output voltage even if the op-amp is perfectly balanced.",
+              "B": "Common-mode noise does not affect the output voltage at all if the op-amp is perfectly balanced.",
+              "C": "Common-mode noise causes a small common-mode output voltage but does not affect the differential output voltage if the op-amp is perfectly balanced.",
+              "D": "Common-mode noise introduces a large differential noise signal across the op-amp inputs if the op-amp is perfectly balanced."
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 935,
+            "question": "How is the depletion capacitance under the gate allocated to the source and drain in the active region?",
+            "options": {
+              "A": "The entire depletion capacitance under the gate is allocated to the drain in the active region.",
+              "B": "Two-thirds of the depletion capacitance under the gate is allocated to the source, and none is allocated to the drain in the active region.",
+              "C": "Half of the depletion capacitance under the gate is allocated to the source, and the other half is allocated to the drain in the active region.",
+              "D": "The depletion capacitance under the gate is equally distributed between the source and drain in all operating conditions."
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 941,
+            "question": "What does the GAMMA parameter represent in MOSFET modeling?",
+            "options": {
+              "A": "Transconductance parameter",
+              "B": "Threshold voltage parameter",
+              "C": "Channel-length modulation parameter",
+              "D": "Surface potential"
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 1124,
+            "question": "How does the initial accuracy of integrated continuous-time filter coefficients compare to switched-capacitor filters?",
+            "options": {
+              "A": "Integrated continuous-time filters have initial coefficient accuracies of about 0.1 percent, similar to switched-capacitor filters.",
+              "B": "Integrated continuous-time filters initially achieve around 30-percent accuracy, while switched-capacitor filters reach 0.1 percent.",
+              "C": "Switched-capacitor filters have initial coefficient accuracies of 30 percent, whereas integrated continuous-time filters achieve 0.1 percent.",
+              "D": "Both types of filters start with identical initial coefficient accuracies of approximately 30 percent."
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 1159,
+            "question": "Given the following parameter values:  \nPower supply voltage (DVDD) = 2.6 V  \nAnalog supply current (Normal) = 1400 μA  \nDigital supply current (Power down) = 0.2 μA  \n\nHow do these values affect the following parameters?  \nReference bypass voltage (V<sub>BG</sub>)  \nInput common mode rejection (Gain = 128, RATE = 0)",
+            "options": {
+              "A": "Reference bypass voltage = 2.6 V, Input common mode rejection = 90 dB",
+              "B": "Reference bypass voltage = 1.25 V, Input common mode rejection = 100 dB",
+              "C": "Reference bypass voltage = 1.25 V, Input common mode rejection = 90 dB",
+              "D": "Reference bypass voltage = 2.6 V, Input common mode rejection = 100 dB"
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 1222,
+            "question": "Given the following parameter values:  \nQuiescent Current (I<sub>q</sub>) = 5 mA  \nRipple Rejection (P<sub>SRR</sub>) = 75 dB  \nThermal Shutdown (T<sub>SD</sub>) = 150 °C  \n\nHow will these values affect the following parameters?  \nCurrent Limiting (I<sub>limit</sub>)  \nAdjust Pin Current (I<sub>adj</sub>)",
+            "options": {
+              "A": "Current Limiting = 2.1 A, Adjust Pin Current = 60 μA",
+              "B": "Current Limiting = 2.5 A, Adjust Pin Current = 120 μA",
+              "C": "Current Limiting = 2.1 A, Adjust Pin Current = 120 μA",
+              "D": "Current Limiting = 2.5 A, Adjust Pin Current = 60 μA"
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 1229,
+            "question": "Given the following parameter values:  \nLoad regulation (ΔV<sub>OUT</sub>) = 100 mV  \nQuiescent current (I<sub>SS</sub>) = 2 μA  \nLine regulation (ΔV<sub>OUT</sub> / ΔV<sub>IN</sub>) = 0.2 %/V  \n\nHow will these values affect the following parameters?  \nOutput current (I<sub>OUT</sub>)  \nTemperature coefficient (ΔV<sub>OUT</sub> / ΔT<sub>a</sub>)",
+            "options": {
+              "A": "Output current = 60 mA",
+              "B": "Output current = 100 mA",
+              "C": "Output current = 60 mA",
+              "D": "Output current = 100 mA"
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 1230,
+            "question": "Given the following parameter values:\nOutput voltage (V<sub>OUT</sub>) = 5 V  \nOutput current (I<sub>OUT</sub>) = 100 mA  \nDrop voltage (V<sub>DIF</sub>) = 100 mV  \n\nHow will these values affect the following parameters?  \nQuiescent current (I<sub>SS</sub>)  \nTemperature coefficient (ΔV<sub>OUT</sub>/ΔT<sub>a</sub>)",
+            "options": {
+              "A": "Quiescent current = 2 μA, Temperature coefficient = +0.75 mV/°C",
+              "B": "Quiescent current = 3 μA, Temperature coefficient = +0.75 mV/°C",
+              "C": "Quiescent current = 2 μA, Temperature coefficient = +0.50 mV/°C",
+              "D": "Quiescent current = 3 μA, Temperature coefficient = +0.50 mV/°C"
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 1232,
+            "question": "Given the following parameter values:\nQuiescent current (I<sub>SS</sub>) = 3 μA  \nTemperature coefficient (ΔV<sub>OUT</sub>/ΔT<sub>a</sub>) = +0.75 mV/°C  \nInput voltage (V<sub>IN</sub>) = 7 V  \n\nHow will these values affect the following parameters?  \nOutput current (I<sub>OUT</sub>)  \nLoad regulation (ΔV<sub>OUT</sub>)",
+            "options": {
+              "A": "Output current = 60 mA, Load regulation = 100 mV",
+              "B": "Output current = 100 mA, Load regulation = 100 mV",
+              "C": "Output current = 60 mA, Load regulation = 50 mV",
+              "D": "Output current = 100 mA, Load regulation = 50 mV"
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          },
+          {
+            "index": 1241,
+            "question": "Given the following parameter values:  \nOpen-loop gain (A<sub>OL</sub>) = 100 dB  \nInput impedance (Z<sub>IN</sub>) = 10 MΩ  \nInput capacitance (Z<sub>CM</sub>) = 4 pF  \n\nHow do these values affect the following parameters?  \nOutput voltage swing (V<sub>OUT</sub>)  \nLoad regulation (V<sub>O</sub>)",
+            "options": {
+              "A": "V<sub>OUT</sub> = ±15 V, V<sub>O</sub> = 1.75 mV",
+              "B": "V<sub>OUT</sub> = ±10 V, V<sub>O</sub> = 1.5 mV",
+              "C": "V<sub>OUT</sub> = ±12 V, V<sub>O</sub> = 1.0 mV",
+              "D": "V<sub>OUT</sub> = ±5 V, V<sub>O</sub> = 0.75 mV"
+            },
+            "groundtruth": "B",
+            "predicted": "C"
+          }
+        ],
+        "E_to_A": [
+          {
+            "index": 477,
+            "question": "How does common-mode feedback work in fully differential amplifiers?",
+            "options": {
+              "A": "Common-mode feedback (CMFB) in fully differential amplifiers works by using a resistive divider and amplifier to sense and adjust the common-mode output voltage, ensuring it remains stable despite variations in process or temperature.",
+              "B": "Common-mode feedback (CMFB) operates by employing two differential pairs to compare the common-mode output voltage with a reference voltage, then feeding back the error signal to control the common-mode level.",
+              "C": "Common-mode feedback (CMFB) functions by utilizing transistors in the triode region to dynamically adjust the common-mode output voltage, maintaining balance in the differential amplifier.",
+              "D": "Common-mode feedback (CMFB) involves a switched-capacitor circuit to sample and correct the common-mode output voltage, ensuring stability across different operating conditions."
+            },
+            "groundtruth": "E",
+            "predicted": "A"
+          },
+          {
+            "index": 902,
+            "question": "How does common-mode feedback work in fully differential amplifiers?",
+            "options": {
+              "A": "Common-mode feedback (CMFB) in fully differential amplifiers works by using a resistive divider and amplifier to sense and adjust the common-mode output voltage, ensuring it remains stable despite variations in process or temperature.",
+              "B": "Common-mode feedback (CMFB) operates by employing two differential pairs to compare the common-mode output voltage with a reference voltage, then feeding back the error signal to control the common-mode level.",
+              "C": "Common-mode feedback (CMFB) functions by utilizing transistors in the triode region to dynamically adjust the common-mode output voltage, maintaining balance in the differential amplifier.",
+              "D": "Common-mode feedback (CMFB) involves a switched-capacitor circuit to sample and correct the common-mode output voltage, ensuring stability across different operating conditions."
+            },
+            "groundtruth": "E",
+            "predicted": "A"
+          }
+        ],
+        "D_to_C": [
+          {
+            "index": 1157,
+            "question": "Given the following parameter values:  \nPower supply voltage (VDD) = 5 V  \nOperating current (PGA=64,128) = 2.34 mA  \nHow do these values affect the following parameters?  \nGain error drift = ±8 ppm/°C  \nOffset error drift = 20 nV/°C",
+            "options": {
+              "A": "Gain error drift = ±15 ppm/°C",
+              "B": "Gain error drift = ±15 ppm/°C",
+              "C": "Gain error drift = ±8 ppm/°C",
+              "D": "Gain error drift = ±8 ppm/°C"
+            },
+            "groundtruth": "D",
+            "predicted": "C"
+          },
+          {
+            "index": 1197,
+            "question": "Given the following parameter values:  \nOffset Voltage (V<sub>OS</sub>) = 0.2 mV  \nCommon-Mode Rejection Ratio (CMRR) = 88 dB  \nOperating Voltage Range = ±13 V  \n\nHow do these values affect the following parameters?  \nSmall Signal -3 dB Bandwidth (BW)  \nSlew Rate (SR)",
+            "options": {
+              "A": "BW = 600 kHz, SR = 2.1 V/μs",
+              "B": "BW = 600 kHz, SR = 1.7 V/μs",
+              "C": "BW = 500 kHz, SR = 1.7 V/μs",
+              "D": "BW = 500 kHz, SR = 2.1 V/μs"
+            },
+            "groundtruth": "D",
+            "predicted": "C"
+          },
+          {
+            "index": 1198,
+            "question": "Given the following parameter values:  \nOperating Voltage Range = ±13 V  \nOutput Short-Circuit Current (I<sub>SC</sub>) = ±25 mA  \nCapacitive Load = 1000 pF  \n\nHow do these values affect the following parameters?  \nFull Power Bandwidth  \nSettling Time for 0.01%, V<sub>OUT</sub> = 10 V step",
+            "options": {
+              "A": "Full Power Bandwidth = 30 kHz, Settling Time = 15 μs",
+              "B": "Full Power Bandwidth = 30 kHz, Settling Time = 12 μs",
+              "C": "Full Power Bandwidth = 28 kHz, Settling Time = 12 μs",
+              "D": "Full Power Bandwidth = 28 kHz, Settling Time = 15 μs"
+            },
+            "groundtruth": "D",
+            "predicted": "C"
+          },
+          {
+            "index": 1202,
+            "question": "Given the following parameter values:  \nInput resistance (Differential) = 80 kΩ  \nOutput impedance = 200 Ω  \nPower supply current = 2 mA  \n\nHow do these values affect the following parameters?  \nOutput noise voltage (f = 0.1 Hz to 10 Hz)  \nTemperature coefficient of offset voltage",
+            "options": {
+              "A": "Output noise voltage = 65 nV/√Hz, Temperature coefficient = 0.01%",
+              "B": "Output noise voltage = 2 μV, Temperature coefficient = 0.01%",
+              "C": "Output noise voltage = 65 nV/√Hz, Temperature coefficient = 0.005%",
+              "D": "Output noise voltage = 2 μV, Temperature coefficient = 0.005%"
+            },
+            "groundtruth": "D",
+            "predicted": "C"
+          },
+          {
+            "index": 1207,
+            "question": "Given the following parameter values:  \nSecond Harmonic Distortion (HD2) at 1 kHz = −133 dBc  \nThird Harmonic Distortion (HD3) at 100 kHz = −116 dBc  \nInput Resistance = 50 kΩ  \n\nHow do these values affect the following parameters?  \nBandwidth for 0.1 dB Flatness = 20 MHz  \nOutput Balance Error = 100 dB",
+            "options": {
+              "A": "Bandwidth for 0.1 dB Flatness = 7 MHz",
+              "B": "Bandwidth for 0.1 dB Flatness = 7 MHz",
+              "C": "Bandwidth for 0.1 dB Flatness = 20 MHz",
+              "D": "Bandwidth for 0.1 dB Flatness = 20 MHz"
+            },
+            "groundtruth": "D",
+            "predicted": "C"
+          },
+          {
+            "index": 1218,
+            "question": "Given the following parameter values:  \nOutput Voltage (Vo) = 5.0 V (typical)  \nLoad Regulation (ΔVo) = 60 mV (max)  \nLine Regulation (ΔVo) = 150 mV (max)  \n\nHow do these values affect the following parameters?  \nQuiescent Current (Iq)  \nRipple Rejection (RR)  \nDropout Voltage (Vd)",
+            "options": {
+              "A": "Quiescent Current (Iq) = 6.0 mA, Ripple Rejection (RR) = 50 dB, Dropout Voltage (Vd) = 1.8 V",
+              "B": "Quiescent Current (Iq) = 2.0 mA, Ripple Rejection (RR) = 40 dB, Dropout Voltage (Vd) = 1.5 V",
+              "C": "Quiescent Current (Iq) = 4.0 mA, Ripple Rejection (RR) = 45 dB, Dropout Voltage (Vd) = 1.6 V",
+              "D": "Quiescent Current (Iq) = 5.5 mA, Ripple Rejection (RR) = 49 dB, Dropout Voltage (Vd) = 1.7 V"
+            },
+            "groundtruth": "D",
+            "predicted": "C"
+          }
+        ],
+        "C_to_D": [
+          {
+            "index": 1223,
+            "question": "Given the following parameter values:  \nOutput Voltage Temperature Stability (T<sub>SOUT</sub>) = 0.3%  \nLong Term Stability = 0.3%  \nTemperature Stability = 0.5%  \n\nHow will these values affect the following parameters?  \nMaximum Output Voltage (V<sub>OUT</sub>)  \nMinimum Output Voltage (V<sub>OUT</sub>)",
+            "options": {
+              "A": "Maximum Output Voltage = 5.100 V, Minimum Output Voltage = 4.900 V",
+              "B": "Maximum Output Voltage = 5.366 V, Minimum Output Voltage = 3.234 V",
+              "C": "Maximum Output Voltage = 5.100 V, Minimum Output Voltage = 3.234 V",
+              "D": "Maximum Output Voltage = 5.366 V, Minimum Output Voltage = 4.900 V"
+            },
+            "groundtruth": "C",
+            "predicted": "D"
+          }
+        ]
+      },
+      "total_errors": 135
+    }
+  },
+  "current_best_accuracy": 88.31,
+  "analogseeker_baseline": 88.8623707239459,
+  "timestamp": "2025-11-07 09:41:43"
+}
