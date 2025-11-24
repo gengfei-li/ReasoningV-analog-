@@ -1,0 +1,118 @@
+{
+  "results": {
+    "LDO": {
+      "task_name": "LDO",
+      "total_questions": 50,
+      "before": {
+        "correct": 23,
+        "accuracy": 46.0,
+        "avg_time": 0.3116868448257446
+      },
+      "after": {
+        "correct": 30,
+        "accuracy": 60.0,
+        "avg_time": 0.2703848314285278
+      },
+      "improvement": 14.0,
+      "improvement_percent": 30.434782608695656
+    },
+    "Comparator": {
+      "task_name": "Comparator",
+      "total_questions": 25,
+      "before": {
+        "correct": 15,
+        "accuracy": 60.0,
+        "avg_time": 0.3294833564758301
+      },
+      "after": {
+        "correct": 18,
+        "accuracy": 72.0,
+        "avg_time": 0.25777400970458986
+      },
+      "improvement": 12.0,
+      "improvement_percent": 20.0
+    },
+    "Bandgap": {
+      "task_name": "Bandgap",
+      "total_questions": 50,
+      "before": {
+        "correct": 29,
+        "accuracy": 57.99999999999999,
+        "avg_time": 0.2818364763259888
+      },
+      "after": {
+        "correct": 35,
+        "accuracy": 70.0,
+        "avg_time": 0.2854271268844604
+      },
+      "improvement": 12.000000000000007,
+      "improvement_percent": 20.689655172413808
+    },
+    "TQA": {
+      "task_name": "TQA",
+      "total_questions": 1257,
+      "before": {
+        "correct": 1069,
+        "accuracy": 85.04375497215592,
+        "avg_time": 0.10384660916567418
+      },
+      "after": {
+        "correct": 1069,
+        "accuracy": 85.04375497215592,
+        "avg_time": 0.09333231511719187
+      },
+      "improvement": 0.0,
+      "improvement_percent": 0.0
+    },
+    "Caption": {
+      "task_name": "Caption",
+      "total_questions": 83,
+      "before": {
+        "correct": 27,
+        "accuracy": 32.53012048192771,
+        "avg_time": 0.17457501285047416
+      },
+      "after": {
+        "correct": 43,
+        "accuracy": 51.80722891566265,
+        "avg_time": 0.11960513620491488
+      },
+      "improvement": 19.277108433734938,
+      "improvement_percent": 59.25925925925925
+    },
+    "Opamp": {
+      "task_name": "Opamp",
+      "total_questions": 12,
+      "before": {
+        "correct": 4,
+        "accuracy": 33.33333333333333,
+        "avg_time": 0.07541513442993164
+      },
+      "after": {
+        "correct": 7,
+        "accuracy": 58.333333333333336,
+        "avg_time": 0.07952527205149333
+      },
+      "improvement": 25.000000000000007,
+      "improvement_percent": 75.00000000000003
+    }
+  },
+  "summary": {
+    "total_questions": 1477,
+    "before_overall": {
+      "correct": 1167,
+      "accuracy": 79.01150981719702
+    },
+    "after_overall": {
+      "correct": 1202,
+      "accuracy": 81.38117806364252
+    },
+    "overall_improvement": 2.3696682464454994,
+    "overall_improvement_percent": 2.999143101970868,
+    "tasks_improved": 5,
+    "tasks_degraded": 0,
+    "tasks_equal": 1,
+    "best_task": "Opamp"
+  },
+  "timestamp": "2025-11-06 21:29:12"
+}
