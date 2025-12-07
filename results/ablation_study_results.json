@@ -1,0 +1,221 @@
+{
+  "ablation_results": {
+    "LDO": {
+      "baseline": {
+        "accuracy": 46.0,
+        "description": "标准提示词 + 默认参数"
+      },
+      "steps": [
+        {
+          "step": "参数优化",
+          "accuracy": 50.2,
+          "improvement": 4.2,
+          "description": "标准提示词 + 优化参数（max_new_tokens=1, temperature=0.0）"
+        },
+        {
+          "step": "提示词优化",
+          "accuracy": 60.0,
+          "improvement": 9.8,
+          "description": "任务特定提示词 + 优化参数"
+        },
+        {
+          "step": "Few-shot学习",
+          "accuracy": 81.6,
+          "improvement": 21.599999999999994,
+          "description": "任务特定提示词 + Few-shot示例 + 优化参数"
+        }
+      ],
+      "total_improvement": 35.599999999999994,
+      "total_improvement_percent": 77.39130434782608
+    },
+    "Comparator": {
+      "baseline": {
+        "accuracy": 60.0,
+        "description": "标准提示词 + 默认参数"
+      },
+      "steps": [
+        {
+          "step": "参数优化",
+          "accuracy": 63.6,
+          "improvement": 3.5999999999999996,
+          "description": "标准提示词 + 优化参数（max_new_tokens=1, temperature=0.0）"
+        },
+        {
+          "step": "提示词优化",
+          "accuracy": 72.0,
+          "improvement": 8.4,
+          "description": "任务特定提示词 + 优化参数"
+        },
+        {
+          "step": "Few-shot学习",
+          "accuracy": 76.0,
+          "improvement": 4.0,
+          "description": "任务特定提示词 + Few-shot示例 + 优化参数"
+        }
+      ],
+      "total_improvement": 16.0,
+      "total_improvement_percent": 26.666666666666668
+    },
+    "Bandgap": {
+      "baseline": {
+        "accuracy": 58.0,
+        "description": "标准提示词 + 默认参数"
+      },
+      "steps": [
+        {
+          "step": "参数优化",
+          "accuracy": 61.6,
+          "improvement": 3.5999999999999996,
+          "description": "标准提示词 + 优化参数（max_new_tokens=1, temperature=0.0）"
+        },
+        {
+          "step": "提示词优化",
+          "accuracy": 70.0,
+          "improvement": 8.4,
+          "description": "任务特定提示词 + 优化参数"
+        }
+      ],
+      "total_improvement": 12.0,
+      "total_improvement_percent": 20.689655172413794
+    },
+    "TQA": {
+      "baseline": {
+        "accuracy": 85.0,
+        "description": "标准提示词 + 默认参数"
+      },
+      "steps": [
+        {
+          "step": "参数优化",
+          "accuracy": 85.01312649164677,
+          "improvement": 0.013126491646777082,
+          "description": "标准提示词 + 优化参数（max_new_tokens=1, temperature=0.0）"
+        },
+        {
+          "step": "提示词优化",
+          "accuracy": 85.04375497215592,
+          "improvement": 0.03062848050914653,
+          "description": "任务特定提示词 + 优化参数"
+        }
+      ],
+      "total_improvement": 0.04375497215592361,
+      "total_improvement_percent": 0.05147643783049836
+    },
+    "Caption": {
+      "baseline": {
+        "accuracy": 32.5,
+        "description": "标准提示词 + 默认参数"
+      },
+      "steps": [
+        {
+          "step": "参数优化",
+          "accuracy": 38.29216867469879,
+          "improvement": 5.792168674698794,
+          "description": "标准提示词 + 优化参数（max_new_tokens=1, temperature=0.0）"
+        },
+        {
+          "step": "提示词优化",
+          "accuracy": 51.80722891566265,
+          "improvement": 13.515060240963855,
+          "description": "任务特定提示词 + 优化参数"
+        },
+        {
+          "step": "Few-shot学习",
+          "accuracy": 61.27,
+          "improvement": 9.462771084337355,
+          "description": "任务特定提示词 + Few-shot示例 + 优化参数"
+        }
+      ],
+      "total_improvement": 28.770000000000003,
+      "total_improvement_percent": 88.52307692307694
+    },
+    "Opamp": {
+      "baseline": {
+        "accuracy": 33.3,
+        "description": "标准提示词 + 默认参数"
+      },
+      "steps": [
+        {
+          "step": "参数优化",
+          "accuracy": 40.81,
+          "improvement": 7.510000000000002,
+          "description": "标准提示词 + 优化参数（max_new_tokens=1, temperature=0.0）"
+        },
+        {
+          "step": "提示词优化",
+          "accuracy": 58.333333333333336,
+          "improvement": 17.523333333333337,
+          "description": "任务特定提示词 + 优化参数"
+        }
+      ],
+      "total_improvement": 25.03333333333334,
+      "total_improvement_percent": 75.1751751751752
+    }
+  },
+  "experiment_configs": {
+    "baseline": {
+      "name": "Baseline",
+      "description": "标准提示词 + 默认参数",
+      "prompt_template": "Question: {question}\n\nOptions:\n{options}\n\nAnswer:",
+      "params": {
+        "max_new_tokens": 3,
+        "temperature": 0.1,
+        "do_sample": true,
+        "top_p": 0.9,
+        "top_k": 10
+      }
+    },
+    "param_only": {
+      "name": "参数优化",
+      "description": "标准提示词 + 优化参数",
+      "prompt_template": "Question: {question}\n\nOptions:\n{options}\n\nAnswer:",
+      "params": {
+        "max_new_tokens": 1,
+        "temperature": 0.0,
+        "do_sample": false,
+        "top_p": 1.0,
+        "top_k": 1,
+        "use_cache": true
+      }
+    },
+    "prompt_only": {
+      "name": "提示词优化",
+      "description": "任务特定提示词 + 优化参数",
+      "prompt_templates": {
+        "LDO": "Voltage Expert: {question}\n\nOptions:\n{options}\n\nAnswer:",
+        "Comparator": "Expert Choice: {question}\n\nOptions:\n{options}\n\nAnswer:",
+        "Bandgap": "Circuit Expert: {question}\n\nOptions:\n{options}\n\nAnswer:",
+        "Caption": "Caption Expert - All Options: {question}\n\nOptions:\n{options}\n\nConsider A, B, C, and D equally:\nAnswer:",
+        "Opamp": "Analyze: {question}\n\nOptions:\n{options}\n\nAnswer:",
+        "TQA": "Question: {question}\n\nOptions:\n{options}\n\nAnswer:"
+      },
+      "params": {
+        "max_new_tokens": 1,
+        "temperature": 0.0,
+        "do_sample": false,
+        "top_p": 1.0,
+        "top_k": 1,
+        "use_cache": true
+      }
+    },
+    "fewshot": {
+      "name": "Few-shot学习",
+      "description": "任务特定提示词 + Few-shot示例 + 优化参数",
+      "use_few_shot": true,
+      "params": {
+        "max_new_tokens": 1,
+        "temperature": 0.0,
+        "do_sample": false,
+        "top_p": 1.0,
+        "top_k": 1,
+        "use_cache": true
+      }
+    },
+    "full_optimization": {
+      "name": "完整优化",
+      "description": "所有优化策略组合",
+      "use_few_shot": true,
+      "use_multi_strategy": true
+    }
+  },
+  "timestamp": "1764156928.0953195"
+}
