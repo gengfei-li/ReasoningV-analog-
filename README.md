@@ -53,10 +53,7 @@ ReasoningV-analog-optimization/
 └── scripts/                            # 验证脚本和工具
     ├── ReasoningV完整验证测试.py        # 完整验证测试脚本
     ├── question_router.py              # 问题路由机制（Router）
-    ├── ablation_study.py                # 消融实验脚本
-    ├── 实验2_CoT对比测试.py             # 实验2: CoT vs Expert Guidance对比
-    ├── 实验3_路由策略敏感性分析.py      # 实验3: 路由策略敏感性分析
-    └── 实验5_失败案例分析.py            # 实验5: 失败案例分析
+    └── ablation_study.py                # 消融实验脚本
 ```
 
 ---
