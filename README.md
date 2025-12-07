@@ -216,6 +216,8 @@ python ReasoningV完整验证测试.py <model_path>
 ### 补充实验分析文档（新增）
 
 - **[路由策略敏感性分析与失败案例分析总结.md](docs/路由策略敏感性分析与失败案例分析总结.md)**: ⭐⭐ **补充实验总结** - 路由策略敏感性分析和失败案例分析的完整总结
+- **[experiment3_router_sensitivity_report.md](docs/experiment3_router_sensitivity_report.md)**: 路由策略敏感性分析详细报告
+- **[experiment5_failure_cases_report_improved.md](docs/experiment5_failure_cases_report_improved.md)**: ⭐⭐ **失败案例分析详细报告** - 包含总体准确率对比和4个详细案例分析，展示Few-shot和Checklist如何避免错误
 
 ### 其他文档
 
