@@ -1,0 +1,208 @@
+{
+  "model": "Analogseeker-32B",
+  "comparison_type": "optimization_before_after",
+  "timestamp": "2025-12-05",
+  "baseline_timestamp": "2025-11-06 23:14:14",
+  "optimized_timestamp": "2025-12-05 21:05:09",
+  "results": {
+    "LDO Task": {
+      "task_name": "LDO Task",
+      "total_questions": 50,
+      "before": {
+        "correct": 39,
+        "accuracy": 78.0,
+        "avg_time": 0.44821767330169676
+      },
+      "after": {
+        "correct": 46,
+        "accuracy": 92.0,
+        "avg_time": 0.5743290138244629,
+        "individual_accuracies": [92.0, 94.0, 90.0],
+        "num_runs": 3
+      },
+      "improvement": {
+        "absolute": 14.0,
+        "relative": 17.95,
+        "correct_increase": 7
+      }
+    },
+    "Comparator Task": {
+      "task_name": "Comparator Task",
+      "total_questions": 25,
+      "before": {
+        "correct": 19,
+        "accuracy": 76.0,
+        "avg_time": 0.46207432746887206
+      },
+      "after": {
+        "correct": 22,
+        "accuracy": 88.0,
+        "avg_time": 0.4928753821055094,
+        "individual_accuracies": [88.0, 88.0, 88.0],
+        "num_runs": 3
+      },
+      "improvement": {
+        "absolute": 12.0,
+        "relative": 15.79,
+        "correct_increase": 3
+      }
+    },
+    "Bandgap Task": {
+      "task_name": "Bandgap Task",
+      "total_questions": 50,
+      "before": {
+        "correct": 29,
+        "accuracy": 58.0,
+        "avg_time": 0.4143947696685791
+      },
+      "after": {
+        "correct": 29,
+        "accuracy": 58.0,
+        "avg_time": 0.30319561004638673,
+        "num_runs": 1
+      },
+      "improvement": {
+        "absolute": 0.0,
+        "relative": 0.0,
+        "correct_increase": 0
+      }
+    },
+    "TQA Task": {
+      "task_name": "TQA Task",
+      "total_questions": 1257,
+      "before": {
+        "correct": 1117,
+        "accuracy": 88.8623707239459,
+        "avg_time": 0.10113560973222804
+      },
+      "after": {
+        "correct": 1087,
+        "accuracy": 86.47573587907716,
+        "avg_time": 0.07793147846546644,
+        "num_runs": 1,
+        "error_difficulty_distribution": {
+          "error_stats": {
+            "Graduate": {
+              "total_questions": 625,
+              "errors": 59,
+              "correct": 566,
+              "error_rate": 9.44,
+              "accuracy": 90.56
+            },
+            "Undergraduate": {
+              "total_questions": 532,
+              "errors": 51,
+              "correct": 481,
+              "error_rate": 9.586466165413533,
+              "accuracy": 90.41353383458647
+            },
+            "Unknown": {
+              "total_questions": 100,
+              "errors": 48,
+              "correct": 52,
+              "error_rate": 48.0,
+              "accuracy": 52.0
+            }
+          },
+          "total_errors": 158,
+          "total_questions": 1257
+        }
+      },
+      "improvement": {
+        "absolute": -2.38,
+        "relative": -2.68,
+        "correct_decrease": 30
+      }
+    },
+    "Caption Task": {
+      "task_name": "Caption Task",
+      "total_questions": 83,
+      "before": {
+        "correct": 45,
+        "accuracy": 54.21686746987952,
+        "avg_time": 0.3728252692394946
+      },
+      "after": {
+        "correct": 65,
+        "accuracy": 78.3132530120482,
+        "avg_time": 0.8527839605109281,
+        "individual_accuracies": [85.54216867469879, 62.65060240963856, 86.74698795180723],
+        "num_runs": 3
+      },
+      "improvement": {
+        "absolute": 24.09,
+        "relative": 44.44,
+        "correct_increase": 20
+      }
+    },
+    "Opamp Task": {
+      "task_name": "Opamp Task",
+      "total_questions": 12,
+      "before": {
+        "correct": 6,
+        "accuracy": 50.0,
+        "avg_time": 0.3383425275484721
+      },
+      "after": {
+        "correct": 6,
+        "accuracy": 50.0,
+        "avg_time": 0.2520791490872701,
+        "num_runs": 1
+      },
+      "improvement": {
+        "absolute": 0.0,
+        "relative": 0.0,
+        "correct_increase": 0
+      }
+    }
+  },
+  "summary": {
+    "total_questions": 1477,
+    "before": {
+      "total_correct": 1255,
+      "overall_accuracy": 84.96953283683142
+    },
+    "after": {
+      "total_correct": 1255,
+      "overall_accuracy": 84.96953283683142
+    },
+    "overall_improvement": {
+      "absolute": 0.0,
+      "relative": 0.0
+    },
+    "tasks_improved": 3,
+    "tasks_degraded": 1,
+    "tasks_equal": 2,
+    "tasks_with_improvement": ["LDO Task", "Comparator Task", "Caption Task"],
+    "tasks_with_degradation": ["TQA Task"],
+    "tasks_without_change": ["Bandgap Task", "Opamp Task"]
+  },
+  "optimization_strategies": {
+    "LDO": {
+      "strategy": "Few-shot learning (3 examples) + Expert role",
+      "effectiveness": "high"
+    },
+    "Comparator": {
+      "strategy": "Few-shot learning (2 examples) + Expert role",
+      "effectiveness": "high"
+    },
+    "Bandgap": {
+      "strategy": "Standard configuration",
+      "effectiveness": "neutral"
+    },
+    "TQA": {
+      "strategy": "Router mechanism (multi-strategy)",
+      "effectiveness": "negative",
+      "note": "Router mechanism may conflict with model's existing reasoning patterns"
+    },
+    "Caption": {
+      "strategy": "Few-shot learning (8 examples) + Expert role",
+      "effectiveness": "high"
+    },
+    "Opamp": {
+      "strategy": "Standard configuration",
+      "effectiveness": "neutral"
+    }
+  }
+}
+

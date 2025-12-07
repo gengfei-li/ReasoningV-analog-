@@ -1,0 +1,119 @@
+{
+  "results": {
+    "LDO": {
+      "task_name": "LDO",
+      "total_questions": 50,
+      "analogseeker": {
+        "correct": 39,
+        "accuracy": 78.0,
+        "avg_time": 0.44821767330169676
+      },
+      "reasoningv": {
+        "correct": 30,
+        "accuracy": 60.0,
+        "avg_time": 0.1427463722229004
+      },
+      "improvement": -18.0,
+      "improvement_percent": -23.076923076923077
+    },
+    "Comparator": {
+      "task_name": "Comparator",
+      "total_questions": 25,
+      "analogseeker": {
+        "correct": 19,
+        "accuracy": 76.0,
+        "avg_time": 0.46207432746887206
+      },
+      "reasoningv": {
+        "correct": 18,
+        "accuracy": 72.0,
+        "avg_time": 0.14231380462646484
+      },
+      "improvement": -4.0,
+      "improvement_percent": -5.263157894736842
+    },
+    "Bandgap": {
+      "task_name": "Bandgap",
+      "total_questions": 50,
+      "analogseeker": {
+        "correct": 29,
+        "accuracy": 57.99999999999999,
+        "avg_time": 0.4143947696685791
+      },
+      "reasoningv": {
+        "correct": 35,
+        "accuracy": 70.0,
+        "avg_time": 0.10584695816040039
+      },
+      "improvement": 12.000000000000007,
+      "improvement_percent": 20.689655172413808
+    },
+    "TQA": {
+      "task_name": "TQA",
+      "total_questions": 1257,
+      "analogseeker": {
+        "correct": 1117,
+        "accuracy": 88.8623707239459,
+        "avg_time": 0.10113560973222804
+      },
+      "reasoningv": {
+        "correct": 1069,
+        "accuracy": 85.04375497215592,
+        "avg_time": 0.05038793919668751
+      },
+      "improvement": -3.8186157517899773,
+      "improvement_percent": -4.297224709042078
+    },
+    "Caption": {
+      "task_name": "Caption",
+      "total_questions": 83,
+      "analogseeker": {
+        "correct": 45,
+        "accuracy": 54.21686746987952,
+        "avg_time": 0.3728252692394946
+      },
+      "reasoningv": {
+        "correct": 43,
+        "accuracy": 51.80722891566265,
+        "avg_time": 0.11311051931725927
+      },
+      "improvement": -2.409638554216869,
+      "improvement_percent": -4.444444444444447
+    },
+    "Opamp": {
+      "task_name": "Opamp",
+      "total_questions": 12,
+      "analogseeker": {
+        "correct": 6,
+        "accuracy": 50.0,
+        "avg_time": 0.3383425275484721
+      },
+      "reasoningv": {
+        "correct": 7,
+        "accuracy": 58.333333333333336,
+        "avg_time": 0.07555842399597168
+      },
+      "improvement": 8.333333333333336,
+      "improvement_percent": 16.66666666666667
+    }
+  },
+  "summary": {
+    "total_questions": 1477,
+    "analogseeker_overall": {
+      "correct": 1255,
+      "accuracy": 84.96953283683142
+    },
+    "reasoningv_overall": {
+      "correct": 1202,
+      "accuracy": 81.38117806364252
+    },
+    "overall_improvement": -3.5883547731888967,
+    "overall_improvement_percent": -4.223107569721115,
+    "tasks_improved": 2,
+    "tasks_degraded": 4,
+    "tasks_equal": 0,
+    "best_task": "Bandgap",
+    "worst_task": "LDO"
+  },
+  "timestamp": "2025-11-06 23:14:14"
+}

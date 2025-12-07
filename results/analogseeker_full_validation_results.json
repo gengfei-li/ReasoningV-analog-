@@ -1,0 +1,110 @@
+{
+  "validation_results": {
+    "results": {
+      "LDO Task": {
+        "task_name": "LDO Task",
+        "accuracy": 92.0,
+        "correct_count": 46,
+        "total_questions": 50,
+        "avg_time": 0.5743290138244629,
+        "total_time": 28.716450691223145,
+        "num_runs": 3,
+        "individual_accuracies": [
+          92.0,
+          94.0,
+          90.0
+        ]
+      },
+      "Comparator Task": {
+        "task_name": "Comparator Task",
+        "accuracy": 88.0,
+        "correct_count": 22,
+        "total_questions": 25,
+        "avg_time": 0.4928753821055094,
+        "total_time": 12.321884552637735,
+        "num_runs": 3,
+        "individual_accuracies": [
+          88.0,
+          88.0,
+          88.0
+        ]
+      },
+      "Bandgap Task": {
+        "task_name": "Bandgap Task",
+        "accuracy": 57.99999999999999,
+        "correct_count": 29,
+        "total_questions": 50,
+        "avg_time": 0.30319561004638673,
+        "total_time": 15.159780502319336,
+        "num_runs": 1,
+        "individual_accuracies": null
+      },
+      "TQA Task": {
+        "task_name": "TQA Task",
+        "accuracy": 86.47573587907716,
+        "correct_count": 1087,
+        "total_questions": 1257,
+        "avg_time": 0.07793147846546644,
+        "total_time": 97.95986843109131,
+        "num_runs": 1,
+        "individual_accuracies": null,
+        "error_difficulty_distribution": {
+          "error_stats": {
+            "Graduate": {
+              "total_questions": 625,
+              "errors": 59,
+              "correct": 566,
+              "error_rate": 9.44,
+              "accuracy": 90.56
+            },
+            "Undergraduate": {
+              "total_questions": 532,
+              "errors": 51,
+              "correct": 481,
+              "error_rate": 9.586466165413533,
+              "accuracy": 90.41353383458647
+            },
+            "Unknown": {
+              "total_questions": 100,
+              "errors": 48,
+              "correct": 52,
+              "error_rate": 48.0,
+              "accuracy": 52.0
+            }
+          },
+          "total_errors": 158,
+          "total_questions": 1257
+        }
+      },
+      "Caption Task": {
+        "task_name": "Caption Task",
+        "accuracy": 78.3132530120482,
+        "correct_count": 65,
+        "total_questions": 83,
+        "avg_time": 0.8527839605109281,
+        "total_time": 70.78106872240703,
+        "num_runs": 3,
+        "individual_accuracies": [
+          85.54216867469879,
+          62.65060240963856,
+          86.74698795180723
+        ]
+      },
+      "Opamp Task": {
+        "task_name": "Opamp Task",
+        "accuracy": 50.0,
+        "correct_count": 6,
+        "total_questions": 12,
+        "avg_time": 0.2520791490872701,
+        "total_time": 3.024949789047241,
+        "num_runs": 1,
+        "individual_accuracies": null
+      }
+    },
+    "overall_accuracy": 84.96953283683142,
+    "total_questions": 1477,
+    "total_correct": 1255
+  },
+  "timestamp": "2025-12-05 21:05:09",
+  "model_path": "/home/ligengfei/LLM/Analog-lgf/analogseeker"
+}

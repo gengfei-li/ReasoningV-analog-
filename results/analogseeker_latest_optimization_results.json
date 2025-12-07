@@ -1,0 +1,74 @@
+{
+  "optimization_results": {
+    "LDO": {
+      "strategy_name": "ldo_few_shot_3examples",
+      "strategy": {
+        "name": "ldo_few_shot_3examples",
+        "use_few_shot": true,
+        "num_examples": 3,
+        "expert_instruction": "You are an LDO circuit expert. Analyze LDO circuits by checking:\n1. Pass transistor (source fixed at VDD)\n2. Error amplifier (compares VREF with feedback)\n3. Stable bandgap reference\n4. Resistive divider feedback network\n",
+        "params": {
+          "max_new_tokens": 1,
+          "temperature": 0.0,
+          "do_sample": false,
+          "repetition_penalty": 1.0,
+          "top_p": 1.0,
+          "top_k": 1,
+          "use_cache": true
+        }
+      }
+    },
+    "Comparator": {
+      "strategy_name": "comparator_few_shot_circuit_expert",
+      "strategy": {
+        "name": "comparator_few_shot_circuit_expert",
+        "use_few_shot": true,
+        "num_examples": 2,
+        "expert_instruction": "You are a comparator circuit expert. Analyze comparator circuits systematically.\n",
+        "params": {
+          "max_new_tokens": 1,
+          "temperature": 0.0,
+          "do_sample": false,
+          "repetition_penalty": 1.0,
+          "top_p": 1.0,
+          "top_k": 1,
+          "use_cache": true
+        }
+      }
+    },
+    "Caption": {
+      "strategy_name": "caption_few_shot_8examples",
+      "strategy": {
+        "name": "caption_few_shot_8examples",
+        "use_few_shot": true,
+        "num_examples": 8,
+        "expert_instruction": "You are a caption analysis expert. Evaluate all options equally.\n",
+        "params": {
+          "max_new_tokens": 1,
+          "temperature": 0.0,
+          "do_sample": false,
+          "repetition_penalty": 1.0,
+          "top_p": 1.0,
+          "top_k": 1,
+          "use_cache": true
+        }
+      }
+    }
+  },
+  "target_tasks": [
+    "LDO",
+    "Comparator",
+    "Caption"
+  ],
+  "protected_tasks": [
+    "TQA",
+    "Bandgap",
+    "Opamp"
+  ],
+  "timestamp": "2025-11-10 12:00:00",
+  "model": "Analogseeker",
+  "note": "使用与ReasoningV相同的优化策略"
+}
+
+
+
