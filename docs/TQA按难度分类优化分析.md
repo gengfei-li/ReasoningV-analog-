@@ -1,6 +1,6 @@
 # TQA任务按难度分类优化分析
 
-本文档详细分析TQA任务在不同难度级别（Undergraduate, Graduate, Unknown）的优化情况。
+本文档详细分析TQA任务在不同难度级别（Undergraduate, Graduate, Unknown）的优化情况，包含真实测试结果和详细分析。
 
 ---
 
