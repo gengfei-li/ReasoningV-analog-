@@ -1,0 +1,86 @@
+{
+  "LDO Task": {
+    "task_name": "LDO Task",
+    "total_questions": 50,
+    "reasoningv": {
+      "correct": 23,
+      "total": 50,
+      "accuracy": 46.0
+    },
+    "analogseeker": {
+      "correct": 46,
+      "total": 50,
+      "accuracy": 92.0
+    },
+    "comparison": {
+      "accuracy_difference": -46.0,
+      "correct_difference": -23,
+      "reasoningv_better": false,
+      "analogseeker_better": true
+    },
+    "note": "由于结果文件不包含每个问题的详细预测，无法提供具体的错误案例。需要重新运行测试并保存详细结果。"
+  },
+  "Comparator Task": {
+    "task_name": "Comparator Task",
+    "total_questions": 25,
+    "reasoningv": {
+      "correct": 15,
+      "total": 25,
+      "accuracy": 60.0
+    },
+    "analogseeker": {
+      "correct": 22,
+      "total": 25,
+      "accuracy": 88.0
+    },
+    "comparison": {
+      "accuracy_difference": -28.0,
+      "correct_difference": -7,
+      "reasoningv_better": false,
+      "analogseeker_better": true
+    },
+    "note": "由于结果文件不包含每个问题的详细预测，无法提供具体的错误案例。需要重新运行测试并保存详细结果。"
+  },
+  "Caption Task": {
+    "task_name": "Caption Task",
+    "total_questions": 83,
+    "reasoningv": {
+      "correct": 27,
+      "total": 83,
+      "accuracy": 32.53012048192771
+    },
+    "analogseeker": {
+      "correct": 65,
+      "total": 83,
+      "accuracy": 78.3132530120482
+    },
+    "comparison": {
+      "accuracy_difference": -45.78313253012048,
+      "correct_difference": -38,
+      "reasoningv_better": false,
+      "analogseeker_better": true
+    },
+    "note": "由于结果文件不包含每个问题的详细预测，无法提供具体的错误案例。需要重新运行测试并保存详细结果。"
+  },
+  "TQA Task": {
+    "task_name": "TQA Task",
+    "total_questions": 1257,
+    "reasoningv": {
+      "correct": 1173,
+      "total": 1257,
+      "accuracy": 93.31742243436753
+    },
+    "analogseeker": {
+      "correct": 1087,
+      "total": 1257,
+      "accuracy": 86.47573587907716
+    },
+    "comparison": {
+      "accuracy_difference": 6.841686555290366,
+      "correct_difference": 86,
+      "reasoningv_better": true,
+      "analogseeker_better": false
+    },
+    "note": "由于结果文件不包含每个问题的详细预测，无法提供具体的错误案例。需要重新运行测试并保存详细结果。"
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "confusion_matrix": {
+    "confusion_matrix": {
+      "factual": {
+        "factual": 95,
+        "reasoning": 6,
+        "analysis": 3
+      },
+      "calculation": {
+        "reasoning": 12,
+        "factual": 8,
+        "calculation": 4
+      },
+      "reasoning": {
+        "reasoning": 69
+      },
+      "analysis": {
+        "analysis": 2
+      },
+      "comparison": {
+        "comparison": 1
+      }
+    },
+    "total_by_true": {
+      "factual": 104,
+      "calculation": 24,
+      "reasoning": 69,
+      "analysis": 2,
+      "comparison": 1
+    },
+    "total_by_pred": {
+      "factual": 103,
+      "reasoning": 87,
+      "analysis": 5,
+      "calculation": 4,
+      "comparison": 1
+    },
+    "accuracy": 85.5,
+    "total_questions": 200,
+    "correct": 171
+  },
+  "misclassification_impact": {
+    "total_misclassifications": 29,
+    "top_misclassifications": [
+      {
+        "true_type": "calculation",
+        "pred_type": "reasoning",
+        "count": 12
+      },
+      {
+        "true_type": "calculation",
+        "pred_type": "factual",
+        "count": 8
+      },
+      {
+        "true_type": "factual",
+        "pred_type": "reasoning",
+        "count": 6
+      },
+      {
+        "true_type": "factual",
+        "pred_type": "analysis",
+        "count": 3
+      }
+    ],
+    "misclassification_rate": 14.499999999999998
+  },
+  "wrong_strategy_results": {
+    "total_tested": 17,
+    "cases": {
+      "What role do switched-capacitor filters play in oversampling D/A converters?": {
+        "true_type": "factual",
+        "correct_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "wrong_strategy": {
+          "type": "reasoning",
+          "prefix": "Analyze carefully:"
+        },
+        "question": "What role do switched-capacitor filters play in oversampling D/A converters?"
+      },
+      "What role do the extra bits of the ADC play in resolving errors during DAC testing?": {
+        "true_type": "factual",
+        "correct_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "wrong_strategy": {
+          "type": "reasoning",
+          "prefix": "Analyze carefully:"
+        },
+        "question": "What role do the extra bits of the ADC play in resolving errors during DAC testing?"
+      },
+      "How can the input-referred noise voltage in a two-stage CMOS op amp be reduced?": {
+        "true_type": "factual",
+        "correct_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "wrong_strategy": {
+          "type": "reasoning",
+          "prefix": "Analyze carefully:"
+        },
+        "question": "How can the input-referred noise voltage in a two-stage CMOS op amp be reduced?"
+      },
+      "What role does the transconductance of the transistors play in determining the output noise current?": {
+        "true_type": "factual",
+        "correct_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "wrong_strategy": {
+          "type": "reasoning",
+          "prefix": "Analyze carefully:"
+        },
+        "question": "What role does the transconductance of the transistors play in determining the output noise current?"
+      },
+      "How does the negative feedback loop affect the first-stage common-mode output voltage?": {
+        "true_type": "reasoning",
+        "correct_strategy": {
+          "type": "reasoning",
+          "prefix": "Analyze carefully:"
+        },
+        "wrong_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "question": "How does the negative feedback loop affect the first-stage common-mode output voltage?"
+      },
+      "How does a push-pull output comparator function?": {
+        "true_type": "reasoning",
+        "correct_strategy": {
+          "type": "reasoning",
+          "prefix": "Analyze carefully:"
+        },
+        "wrong_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "question": "How does a push-pull output comparator function?"
+      },
+      "How does the subthreshold current affect the output voltage in an active load inverter?": {
+        "true_type": "reasoning",
+        "correct_strategy": {
+          "type": "reasoning",
+          "prefix": "Analyze carefully:"
+        },
+        "wrong_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "question": "How does the subthreshold current affect the output voltage in an active load inverter?"
+      },
+      "Why does the charge injection from the p-channel transistor become greater than the n-channel transistor when the input signal is closer to VDD?": {
+        "true_type": "reasoning",
+        "correct_strategy": {
+          "type": "reasoning",
+          "prefix": "Analyze carefully:"
+        },
+        "wrong_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "question": "Why does the charge injection from the p-channel transistor become greater than the n-channel transistor when the input signal is closer to VDD?"
+      },
+      "Given the following parameters:  \nOutput high-level voltage (V<sub>OH</sub>) = 13.6 V  \nOutput low-level voltage (V<sub>OL</sub>) = 0.1 V  \nSupply voltage (V<sub>S</sub>) = ±18 V  \n\nHow do these values affect the following parameters?  \nInput bias current (I<sub>BIAS</sub>) = 50 nA  \nInput offset voltage (V<sub>IO</sub>) = ±3 mV": {
+        "true_type": "calculation",
+        "correct_strategy": {
+          "type": "reasoning",
+          "prefix": "Analyze carefully:"
+        },
+        "wrong_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "question": "Given the following parameters:  \nOutput high-level voltage (V<sub>OH</sub>) = 13.6 V  \nOutput low-level voltage (V<sub>OL</sub>) = 0.1 V  \nSupply voltage (V<sub>S</sub>) = ±18 V  \n\nHow do these values affect the following parameters?  \nInput bias current (I<sub>BIAS</sub>) = 50 nA  \nInput offset voltage (V<sub>IO</sub>) = ±3 mV"
+      },
+      "What parameters are needed to calculate the effects of loading at the input and output ports of an amplifier?": {
+        "true_type": "calculation",
+        "correct_strategy": {
+          "type": "calculation",
+          "prefix": "Calculate precisely:"
+        },
+        "wrong_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "question": "What parameters are needed to calculate the effects of loading at the input and output ports of an amplifier?"
+      },
+      "What factors determine the frequency response of a simple current mirror used as a current amplifier?": {
+        "true_type": "calculation",
+        "correct_strategy": {
+          "type": "calculation",
+          "prefix": "Calculate precisely:"
+        },
+        "wrong_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "question": "What factors determine the frequency response of a simple current mirror used as a current amplifier?"
+      },
+      "Given the following parameter values:  \nLine regulation (ΔVo) = 32 mV  \nLoad regulation (ΔVo) = 15 mV  \nQuiescent current change (ΔIq) = 1.5 mA  \n\nHow will these values affect the following parameters?  \nOutput voltage (Vo), Dropout voltage (Vd)": {
+        "true_type": "calculation",
+        "correct_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "wrong_strategy": {
+          "type": "reasoning",
+          "prefix": "Analyze carefully:"
+        },
+        "question": "Given the following parameter values:  \nLine regulation (ΔVo) = 32 mV  \nLoad regulation (ΔVo) = 15 mV  \nQuiescent current change (ΔIq) = 1.5 mA  \n\nHow will these values affect the following parameters?  \nOutput voltage (Vo), Dropout voltage (Vd)"
+      },
+      "What makes the cross-coupled differential-input stage unique compared to other op amp input stages?": {
+        "true_type": "analysis",
+        "correct_strategy": {
+          "type": "analysis",
+          "prefix": "Analyze carefully:"
+        },
+        "wrong_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "question": "What makes the cross-coupled differential-input stage unique compared to other op amp input stages?"
+      },
+      "What methods are used to analyze noise in complex circuits like op amps?": {
+        "true_type": "analysis",
+        "correct_strategy": {
+          "type": "analysis",
+          "prefix": "Analyze carefully:"
+        },
+        "wrong_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "question": "What methods are used to analyze noise in complex circuits like op amps?"
+      },
+      "What limitations does the Miller-effect equivalent circuit have in terms of circuit analysis?": {
+        "true_type": "analysis",
+        "correct_strategy": {
+          "type": "analysis",
+          "prefix": "Analyze carefully:"
+        },
+        "wrong_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "question": "What limitations does the Miller-effect equivalent circuit have in terms of circuit analysis?"
+      },
+      "What type of inverters are commonly used in integrated ring oscillators to achieve better power-supply insensitivity?": {
+        "true_type": "comparison",
+        "correct_strategy": {
+          "type": "comparison",
+          "prefix": "Compare and analyze:"
+        },
+        "wrong_strategy": {
+          "type": "factual",
+          "prefix": "Answer precisely:"
+        },
+        "question": "What type of inverters are commonly used in integrated ring oscillators to achieve better power-supply insensitivity?"
+      }
+    }
+  }
+}
